@@ -26,37 +26,37 @@
   "footer": {
     "groups": [
       {
-        "title": "Quick Links",
+        "title": "Explore",
         "columns": [
           [
             {
-              "label": "Features",
+              "label": "Products",
               "href": "/features"
             },
             {
-              "label": "Process",
-              "href": "/features#process"
+              "label": "Studio",
+              "href": "/about"
             },
             {
-              "label": "Pricing",
-              "href": "/pricing"
+              "label": "Our Approach",
+              "href": "/about#approach"
             },
             {
-              "label": "Compare Plans",
-              "href": "/pricing#compare-plans"
+              "label": "What We Build",
+              "href": "/#what-we-build"
             }
           ],
           [
             {
-              "label": "Showcases",
-              "href": "/case-studies"
+              "label": "Open Source",
+              "href": "/#open-source"
             },
             {
-              "label": "About",
-              "href": "/about"
+              "label": "Next.js Template",
+              "href": "https://github.com/bigbi-studio/bigai-workflow-nextjs"
             },
             {
-              "label": "Blog",
+              "label": "Insights",
               "href": "/blog"
             },
             {
@@ -67,13 +67,9 @@
         ]
       },
       {
-        "title": "Pages",
+        "title": "Legal",
         "columns": [
           [
-            {
-              "label": "Coming Soon",
-              "href": "/coming-soon"
-            },
             {
               "label": "Terms of Service",
               "href": "/terms-of-service"

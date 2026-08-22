@@ -33,6 +33,7 @@ import {
   Phone,
   Map,
   MapPin,
+  Send,
   type LucideIcon,
 } from "lucide-react"
 
@@ -63,6 +64,7 @@ export const lucideIcons = {
   Phone,
   Map,
   MapPin,
+  Send,
 } satisfies Record<string, LucideIcon>
 
 // Valid icon names for content and component props.

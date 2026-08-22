@@ -19,13 +19,14 @@ export function Footer() {
       {/* Footer Main Area */}
       <div className="container flex flex-col lg:flex-row gap-10 justify-between py-16">
         {/* Company Info */}
-        <div className="flex flex-col gap-5 lg:gap-8 text-sm">
+        <div className="flex flex-col gap-4 text-sm max-w-75">
           <div className="flex flex-col gap-4">
             <Logo width={160} height={32} />
-            <span className="text-ink-secondary leading-relaxed">
+            <span className="text-ink-tertiary leading-relaxed">
               {companyData.slogan}
             </span>
           </div>
+
           <ul className="flex flex-col gap-4">
             {companyData.contact.map((item) => {
               const Icon = item.icon
@@ -34,9 +35,9 @@ export function Footer() {
               return (
                 <li
                   key={item.id}
-                  className="flex items-center gap-2 text-ink-tertiary hover:text-ink-primary duration-200"
+                  className="flex items-center gap-1.5 text-ink-tertiary hover:text-ink-primary duration-200"
                 >
-                  {Icon && <Icon size={16} />}
+                  {Icon && <Icon size={12} strokeWidth={2} />}
                   <Link
                     href={item.href}
                     target={item.id === "address" ? "_blank" : undefined}
@@ -45,6 +46,29 @@ export function Footer() {
                     }
                   >
                     {item.label}
+                  </Link>
+                </li>
+              )
+            })}
+          </ul>
+
+          {/* Social Media */}
+          <ul className="flex flex-wrap gap-6 mt-4">
+            {companyData.socials.map(({ id, href, label }) => {
+              const Icon = socialIconMap[id]
+              return (
+                <li key={id}>
+                  <Link
+                    className="text-ink-quaternary hover:text-ink-primary transition-all duration-200"
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {Icon ? (
+                      <Icon className="w-5 h-5 hover:scale-105 duration-200" />
+                    ) : (
+                      <span className="sr-only">{label}</span>
+                    )}
                   </Link>
                 </li>
               )
@@ -64,7 +88,7 @@ export function Footer() {
                 }}
               >
                 {group.columns.map((column, index) => (
-                  <ul key={index} className="flex flex-col gap-6">
+                  <ul key={index} className="flex flex-col gap-5">
                     {column.map((link) => (
                       <li key={link.href}>
                         <Link
@@ -83,42 +107,19 @@ export function Footer() {
         </div>
       </div>
 
-      {/* Social Media */}
-      <div className="flex flex-col items-center gap-10 pb-20 lg:pb-5">
-        <ul className="flex flex-wrap gap-6 mobile:gap-8 lg:gap-10">
-          {companyData.socials.map(({ id, href, label }) => {
-            const Icon = socialIconMap[id]
-            return (
-              <li key={id}>
-                <Link
-                  className="text-ink-quaternary hover:text-ink-primary transition-all duration-200"
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {Icon ? (
-                    <Icon className="w-6 h-6 hover:scale-105 duration-200" />
-                  ) : (
-                    <span className="sr-only">{label}</span>
-                  )}
-                </Link>
-              </li>
-            )
-          })}
-        </ul>
-
-        {/* Footer Bottom Area */}
+      {/* Footer Bottom Area */}
+      <div className="flex flex-col items-center pb-20 lg:pb-6">
         <div className="flex flex-col items-center gap-2 text-small">
           <span className="font-semibold text-ink-tertiary">
             {companyData.copyright}
           </span>
           <Link
             className="text-ink-quaternary hover:text-ink-primary tracking-wide transition-all duration-200"
-            href="https://www.bigbistudio.com"
+            href="https://github.com/bigbi-studio/bigai-workflow-nextjs"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Next.js template by bigbistudio.com
+            Built with bigA.i Workflow Next.js Template
           </Link>
         </div>
       </div>
