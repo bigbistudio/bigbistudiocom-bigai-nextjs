@@ -75,7 +75,7 @@ export function Header() {
             <Logo />
           </Link>
           <NavigationMenu className="hidden lg:block">
-            <NavigationMenuList className="text-ink-tertiary">
+            <NavigationMenuList className="text-ink-tertiary gap-2">
               {navigationData.header.links.map((link, index) => (
                 <NavigationMenuItem key={index}>
                   <NavigationMenuLink asChild>
