@@ -64,33 +64,33 @@
   --spacing-24: 6rem; /* 96px */
 
   /* Text color hierarchy */
-  --color-ink-primary: oklch(0.978 0.001 240.1); /* #F7F8F8 */
-  --color-ink-secondary: oklch(0.857 0.013 245.4); /* #D0D6E0 */
-  --color-ink-tertiary: oklch(0.734 0.009 245.3); /* #A8ADB8 */
-  --color-ink-quaternary: oklch(0.578 0.008 245.2); /* #7A7F87 */
+  --color-ink-primary: #ffffff;
+  --color-ink-secondary: #e6e7ff;
+  --color-ink-tertiary: #a6a7c8;
+  --color-ink-quaternary: #8795d0;
 
   /* Background color hierarchy */
-  --color-surface-primary: oklch(0.138 0.003 240.1); /* #08090A */
-  --color-surface-secondary: oklch(0.17 0 0); /* #0F1011 */
-  --color-surface-tertiary: oklch(0.195 0.003 248); /* #141516 */
-  --color-surface-quaternary: oklch(0.228 0.006 285.9); /* #1C1C1F */
+  --color-surface-primary: #0f1e4a;
+  --color-surface-secondary: #182554;
+  --color-surface-tertiary: #233060;
+  --color-surface-quaternary: #273368;
 
   /* Border color hierarchy */
-  --color-line-primary: oklch(0.219 0.009 250.2); /* #23252A */
-  --color-line-secondary: oklch(0.283 0.005 264.5); /* #34343A */
-  --color-line-tertiary: oklch(0.316 0.005 264.6); /* #3E3E44 */
-  --color-line-translucent: oklch(1 0 0 / 0.05); /* #FFFFFF05 */
+  --color-line-primary: #343e73;
+  --color-line-secondary: #333d71;
+  --color-line-tertiary: #485088;
+  --color-line-translucent: #ffffff10;
 
   /* Actions: Button, Link, Tab, Pagination controls, etc */
-  --color-action-primary-surface: oklch(0.978 0.001 240.1); /* #F7F8F8 */
-  --color-action-primary-ink: oklch(0.138 0.003 240.1); /* #08090A */
+  --color-action-primary-surface: #ffffff;
+  --color-action-primary-ink: #182453;
 
-  --color-action-secondary-surface: oklch(0.27 0 0); /* #28282C */
-  --color-action-secondary-ink: oklch(0.978 0.001 240.1); /* #F7F8F8 */
+  --color-action-secondary-surface: #3a4378;
+  --color-action-secondary-ink: #e6e7ff;
 
   /* Brand */
-  --color-brand-surface: oklch(0.626 0.183 252.6); /* #3B82F6 */
-  --color-brand-ink: oklch(0.978 0.001 240.1); /* #F7F8F8 */
+  --color-brand-surface: #24b8ff;
+  --color-brand-ink: #ffffff;
 
   /* --------------------------------------------------------------------------
    * Breakpoints
