@@ -20,8 +20,8 @@ export function Footer() {
       <div className="container flex flex-col lg:flex-row gap-10 justify-between py-16">
         {/* Company Info */}
         <div className="flex flex-col gap-5 lg:gap-8 text-sm">
-          <div className="flex flex-col gap-2">
-            <Logo width={88} height={30} />
+          <div className="flex flex-col gap-4">
+            <Logo width={160} height={32} />
             <span className="text-ink-secondary leading-relaxed">
               {companyData.slogan}
             </span>
