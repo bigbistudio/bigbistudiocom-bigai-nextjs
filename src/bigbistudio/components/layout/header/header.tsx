@@ -62,8 +62,8 @@ export function Header() {
 
   return (
     <>
-      <header className="fixed top-0 lg:top-5 flex justify-center w-full z-40 pointer-events-none">
-        <div className="flex justify-between lg:justify-center items-center gap-10 w-full lg:w-fit lg:rounded-2xl bg-[#08090A40] backdrop-blur-md shadow-[0px_2px_10px_0px_rgba(0,0,0,0.25)] border-b border-white/8 lg:border p-2.5 pointer-events-auto">
+      <header className="fixed top-0 left-0 w-full z-40 pointer-events-none py-4 border-b border-line-translucent bg-surface-primary">
+        <div className="flex justify-between lg:container items-center gap-10 xl:px-0 pointer-events-auto">
           <Link
             href="/"
             onClick={(e) => {
