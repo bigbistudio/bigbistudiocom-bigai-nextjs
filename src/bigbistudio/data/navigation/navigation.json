@@ -2,23 +2,15 @@
   "header": {
     "links": [
       {
-        "label": "Features",
+        "label": "Products",
         "href": "/features"
       },
       {
-        "label": "Showcases",
-        "href": "/case-studies"
-      },
-      {
-        "label": "Pricing",
-        "href": "/pricing"
-      },
-      {
-        "label": "About",
+        "label": "Studio",
         "href": "/about"
       },
       {
-        "label": "Blog",
+        "label": "Insights",
         "href": "/blog"
       },
       {
