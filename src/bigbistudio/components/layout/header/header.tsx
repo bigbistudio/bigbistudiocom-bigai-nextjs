@@ -70,7 +70,7 @@ export function Header() {
               handleLogoClick(e)
               handleClose()
             }}
-            className="px-2 active:scale-[0.97] transition-transform duration-150"
+            className="px-4 lg:px-0 active:scale-[0.97] transition-transform duration-150"
           >
             <Logo />
           </Link>
@@ -116,7 +116,7 @@ export function Header() {
       {/* Mobile menu overlay */}
       <div
         className={cn(
-          "fixed inset-0 z-20 bg-black/70 backdrop-blur-md transition-opacity duration-400 lg:hidden",
+          "fixed inset-0 z-20 bg-surface-primary/80 backdrop-blur-md transition-opacity duration-400 lg:hidden",
           open
             ? "pointer-events-auto opacity-100"
             : "pointer-events-none opacity-0",
