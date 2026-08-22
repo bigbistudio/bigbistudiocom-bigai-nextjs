@@ -1,4 +1,4 @@
-# bigbi studio
+# www.bigbistudio.com
 
 The official website for **bigbi studio** — a digital studio focused on building thoughtful digital products, modern web experiences, and open-source tools.
 
