@@ -19,7 +19,7 @@ const page = homePageData
 
 export function HomeView() {
   return (
-    <main className="relative z-10 flex flex-col items-center justify-center w-full lg:py-10">
+    <main className="relative z-10 flex flex-col items-center justify-center w-full">
       <HeroMainSection {...page.sections.heroMain} />
       <LogosSection {...page.sections.clientLogos} />
       <FeaturesCarouselSection {...page.sections.featuresCarousel} />
