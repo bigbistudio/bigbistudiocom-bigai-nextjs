@@ -27,7 +27,7 @@ export function HeaderMobile({
   const Icon = open ? X : Menu
 
   return (
-    <div className="relative lg:hidden flex items-center pl-1 pr-2">
+    <div className="relative lg:hidden flex items-center">
       <Button
         size="icon"
         variant="ghost"

@@ -63,14 +63,14 @@ export function Header() {
   return (
     <>
       <header className="fixed top-0 left-0 w-full z-40 pointer-events-none py-4 border-b border-line-translucent bg-surface-primary">
-        <div className="flex justify-between lg:container items-center gap-10 xl:px-0 pointer-events-auto">
+        <div className="flex justify-between container items-center gap-10 pointer-events-auto">
           <Link
             href="/"
             onClick={(e) => {
               handleLogoClick(e)
               handleClose()
             }}
-            className="px-4 lg:px-0 active:scale-[0.99] transition-transform duration-150"
+            className="active:scale-[0.99] transition-transform duration-150"
           >
             <Logo />
           </Link>
