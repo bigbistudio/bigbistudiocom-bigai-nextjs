@@ -2,31 +2,31 @@
     "phases": [
         {
             "id": "phase01",
-            "phase": "PHASE 01: INTELLIGENT DISCOVERY",
+            "phase": "01. DISCOVER",
             "ui": "ui-audit",
-            "title": "Visualize Your Efficiency Gaps.",
-            "description": "Our AI maps your workflows to pinpoint hidden bottlenecks and high-ROI opportunities for immediate impact."
+            "title": "Understand the Problem First",
+            "description": "Explore your goals, users, and requirements to uncover key challenges and define a clear direction."
         },
         {
             "id": "phase02",
-            "phase": "PHASE 02: STRATEGIC DESIGN",
+            "phase": "02. DESIGN",
             "ui": "ui-builder",
-            "title": "Engineering Precision Without Code.",
-            "description": "Design sophisticated agents effortlessly. Drag-and-drop logic chains to build workflows aligned perfectly with your business rules."
+            "title": "Shape the Right Experience.",
+            "description": "Transform ideas into thoughtful interfaces, intuitive interactions, and visual systems tailored to your product goals."
         },
         {
             "id": "phase03",
-            "phase": "PHASE 03: SEAMLESS DEPLOYMENT",
+            "phase": "03. BUILD",
             "ui": "ui-integration",
-            "title": "Bridge the Gap Between Design and Reality.",
-            "description": "Go live instantly via secure APIs. Seamlessly integrate agents into your existing systems with zero downtime."
+            "title": "Build for Scale and Growth.",
+            "description": "Turn designs into scalable digital products with modern technologies, reusable systems, and foundations built for growth."
         },
         {
             "id": "phase04",
-            "phase": "PHASE 04: ADAPTIVE EVOLUTION",
+            "phase": "04. REFINE",
             "ui": "ui-performance",
-            "title": "Performance That Sharpens Over Time.",
-            "description": "The AI refines itself daily. Continuous learning loops ensure workflows become faster and smarter as you scale."
+            "title": "Polish Every Detail Carefully.",
+            "description": "Test, optimize, and refine every interaction to create a fast, clear, polished, and intentional final experience."
         }
     ]
 }

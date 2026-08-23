@@ -3,7 +3,6 @@ import {
   HeroMainSection,
   LogosSection,
   FeaturesCarouselSection,
-  StatisticsSection,
   ProcessGridSection,
   PricingSection,
   CaseStudiesSection,
@@ -24,7 +23,6 @@ export function HomeView() {
         <HeroMainSection {...page.sections.heroMain} />
         <LogosSection {...page.sections.clientLogos} />
         <FeaturesCarouselSection {...page.sections.featuresCarousel} />
-        <StatisticsSection {...page.sections.statistics} />
         <ProcessGridSection {...page.sections.processGrid} />
         <PricingSection {...page.sections.pricing} />
         <CaseStudiesSection {...page.sections.caseStudies} />

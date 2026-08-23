@@ -25,27 +25,10 @@
             "title": "What We Build",
             "subtitle": "From interfaces to infrastructure, we create experiences and systems built for what comes next."
         },
-        "statistics": {
-            "title": "Statistics",
-            "numbers": [
-                {
-                    "value": "70%",
-                    "description": "reduction in manual \ndata entry."
-                },
-                {
-                    "value": "24/7",
-                    "description": "autonomous operation \nmonitoring."
-                },
-                {
-                    "value": "< 1s",
-                    "description": "response time for \nautomated triggers."
-                }
-            ]
-        },
         "processGrid": {
             "eyebrow": "Process",
-            "title": "From manual chaos to \nAI-driven clarity",
-            "subtitle": "We've simplified the path to automation. Our 4-step framework ensures your transition to an AI-first operation is seamless, secure, and data-backed."
+            "title": "How We Build",
+            "subtitle": "We connect design, systems, and development instead of treating them as separate steps."
         },
         "pricing": {
             "eyebrow": "Pricing",

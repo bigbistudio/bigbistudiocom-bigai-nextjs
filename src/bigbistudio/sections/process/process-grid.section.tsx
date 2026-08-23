@@ -16,9 +16,9 @@ export function ProcessGridSection({
   return (
     <section
       id={id}
-      className="container flex flex-col py-20 gap-16 scroll-mt-12 xl:scroll-mt-24"
+      className="flex flex-col py-20 gap-16 scroll-mt-12 xl:scroll-mt-24"
     >
-      <div className="flex flex-col lg:flex-row lg:justify-between gap-8 lg:gap-2.5">
+      <div className="container flex flex-col lg:flex-row lg:justify-between gap-8 lg:gap-2.5">
         <div className="flex flex-col gap-2.5">
           <span className="flex items-center px-1 gap-1.5 text-sm text-ink-tertiary">
             <EyebrowIcon /> {eyebrow}
@@ -31,7 +31,7 @@ export function ProcessGridSection({
           </p>
         </div>
       </div>
-      <div className="flex flex-col lg:grid lg:grid-cols-2 gap-px bg-surface-quaternary/80 border-y border-line-translucent">
+      <div className="container px-0 flex flex-col lg:grid lg:grid-cols-2 gap-px bg-line-translucent border-y border-line-translucent">
         {processData.phases.map((item) => {
           const UI = item.ui ? uiGraphicMap[item.ui] : null
 
