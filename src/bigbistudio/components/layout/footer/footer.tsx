@@ -17,11 +17,13 @@ export function Footer() {
   return (
     <footer className="border-t">
       {/* Footer Main Area */}
-      <div className="container flex flex-col lg:flex-row gap-10 justify-between py-16">
+      <div className="container flex flex-col lg:flex-row gap-10 justify-between py-20">
         {/* Company Info */}
         <div className="flex flex-col gap-4 text-sm max-w-75">
           <div className="flex flex-col gap-4">
-            <Logo width={160} height={32} />
+            <Link href="/">
+              <Logo width={180} height={36} />
+            </Link>
             <span className="text-ink-tertiary leading-relaxed">
               {companyData.slogan}
             </span>
@@ -63,6 +65,7 @@ export function Footer() {
                     href={href}
                     target="_blank"
                     rel="noopener noreferrer"
+                    title={label}
                   >
                     {Icon ? (
                       <Icon className="w-5 h-5 hover:scale-105 duration-200" />
@@ -88,7 +91,7 @@ export function Footer() {
                 }}
               >
                 {group.columns.map((column, index) => (
-                  <ul key={index} className="flex flex-col gap-5">
+                  <ul key={index} className="flex flex-col gap-6">
                     {column.map((link) => (
                       <li key={link.href}>
                         <Link
@@ -108,7 +111,7 @@ export function Footer() {
       </div>
 
       {/* Footer Bottom Area */}
-      <div className="flex flex-col items-center pb-20 lg:pb-6">
+      <div className="flex flex-col items-center pb-20 lg:pb-8">
         <div className="flex flex-col items-center gap-2 text-small">
           <span className="font-semibold text-ink-tertiary">
             {companyData.copyright}
