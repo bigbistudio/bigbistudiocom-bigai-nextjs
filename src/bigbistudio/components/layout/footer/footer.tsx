@@ -15,7 +15,7 @@ import { navigationData } from "@/bigbistudio/data/navigation"
 
 export function Footer() {
   return (
-    <footer className="border-t">
+    <footer className="border-t border-line-translucent">
       {/* Footer Main Area */}
       <div className="container flex flex-col lg:flex-row gap-10 justify-between py-20">
         {/* Company Info */}

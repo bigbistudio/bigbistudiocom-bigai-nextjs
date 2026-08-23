@@ -9,7 +9,7 @@ import { siteData } from "@/bigbistudio/data/site"
 
 export function FooterCTA() {
   return (
-    <div className="container py-20 flex flex-col lg:flex-row justify-center items-center gap-5 lg:gap-24">
+    <div className="container py-20 flex flex-col lg:flex-row justify-center items-center gap-5 lg:gap-24 border-x border-line-translucent">
       <h2 className="text-lead lg:text-[36px] font-medium text-center">
         {siteData.footerCta.title}
       </h2>
