@@ -82,7 +82,7 @@ export function Header() {
                     <Link
                       href={link.href}
                       className={cn(
-                        "px-3 py-2.5 text-small! rounded-lg hover:bg-white/5 hover:text-ink-primary active:scale-[0.97] duration-150 transition-all",
+                        "px-3 py-2.5 text-small! rounded-lg hover:bg-surface-quaternary hover:text-ink-primary active:scale-[0.97] duration-150 transition-all",
                       )}
                     >
                       {link.label}
@@ -100,7 +100,7 @@ export function Header() {
                 return (
                   <li key={id} className="inline-flex items-center active:scale-[0.99] transition-transform duration-150">
                     <Link
-                      className="inline-block p-2 rounded-lg hover:bg-white/5 text-ink-secondary hover:text-ink-primary cursor-pointer transition-all duration-200"
+                      className="inline-block p-2 rounded-lg hover:bg-surface-quaternary text-ink-secondary hover:text-ink-primary cursor-pointer transition-all duration-200"
                       href={href}
                       target="_blank"
                       rel="noopener noreferrer"

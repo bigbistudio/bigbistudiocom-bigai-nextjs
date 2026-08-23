@@ -67,7 +67,7 @@ export function Footer() {
                   className="inline-flex items-center active:scale-[0.99] transition-transform duration-150"
                 >
                   <Link
-                    className="inline-block p-2 rounded-lg hover:bg-white/5 text-ink-tertiary hover:text-ink-primary cursor-pointer transition-all duration-200"
+                    className="inline-block p-2 rounded-lg hover:bg-surface-quaternary text-ink-tertiary hover:text-ink-primary cursor-pointer transition-all duration-200"
                     href={href}
                     target="_blank"
                     rel="noopener noreferrer"
