@@ -25,8 +25,8 @@ export const logos: LogoItem[] = [
   {
     logo: (
       <Image
-        src="/logoipsums/logoipsum8.svg"
-        alt="logoipsum8"
+        src="/tech-logos/nextjs-logo.svg"
+        alt="Next.js"
         {...imageProps}
       />
     ),
@@ -34,8 +34,8 @@ export const logos: LogoItem[] = [
   {
     logo: (
       <Image
-        src="/logoipsums/logoipsum79.svg"
-        alt="logoipsum79"
+        src="/tech-logos/react-logo.svg"
+        alt="React"
         {...imageProps}
       />
     ),
@@ -43,8 +43,8 @@ export const logos: LogoItem[] = [
   {
     logo: (
       <Image
-        src="/logoipsums/logoipsum78.svg"
-        alt="logoipsum78"
+        src="/tech-logos/typescript-logo.svg"
+        alt="Typescript"
         {...imageProps}
       />
     ),
@@ -52,8 +52,8 @@ export const logos: LogoItem[] = [
   {
     logo: (
       <Image
-        src="/logoipsums/logoipsum51.svg"
-        alt="logoipsum51"
+        src="/tech-logos/tailwindcss-logo.svg"
+        alt="TailwindCss"
         {...imageProps}
       />
     ),
@@ -61,8 +61,8 @@ export const logos: LogoItem[] = [
   {
     logo: (
       <Image
-        src="/logoipsums/logoipsum49.svg"
-        alt="logoipsum49"
+        src="/tech-logos/framer-logo.svg"
+        alt="Framer"
         {...imageProps}
       />
     ),
@@ -70,8 +70,8 @@ export const logos: LogoItem[] = [
   {
     logo: (
       <Image
-        src="/logoipsums/logoipsum6.svg"
-        alt="logoipsum6"
+        src="/tech-logos/figma-logo.svg"
+        alt="Figma"
         {...imageProps}
       />
     ),
@@ -79,8 +79,8 @@ export const logos: LogoItem[] = [
   {
     logo: (
       <Image
-        src="/logoipsums/logoipsum40.svg"
-        alt="logoipsum40"
+        src="/tech-logos/shopify-logo.svg"
+        alt="Shopify"
         {...imageProps}
       />
     ),
@@ -88,8 +88,8 @@ export const logos: LogoItem[] = [
   {
     logo: (
       <Image
-        src="/logoipsums/logoipsum55.svg"
-        alt="logoipsum55"
+        src="/tech-logos/vercel-logo.svg"
+        alt="Vercel"
         {...imageProps}
       />
     ),
