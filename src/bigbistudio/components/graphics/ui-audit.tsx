@@ -22,7 +22,7 @@ export function UIAudit() {
             <span>Overall Analysis Progress</span>
             <span>42%</span>
           </div>
-          <div className="relative bg-[#54545420] rounded-md w-full h-2">
+          <div className="relative bg-surface-quaternary rounded-md w-full h-2">
             <div className="absolute top-0 left-0  bg-accent rounded-md w-[42%] h-full" />
           </div>
         </div>
@@ -47,7 +47,7 @@ export function UIAudit() {
                   / 47
                 </span>
               </div>
-              <div className="relative bg-[#54545420] rounded-md w-full h-1.5">
+              <div className="relative bg-surface-quaternary rounded-md w-full h-1.5">
                 <div className="absolute top-0 left-0  bg-blue-400 rounded-md w-[17%] h-full" />
               </div>
             </div>
@@ -72,7 +72,7 @@ export function UIAudit() {
                   / 2.3K
                 </span>
               </div>
-              <div className="relative bg-[#54545420] rounded-md w-full h-1.5">
+              <div className="relative bg-surface-quaternary rounded-md w-full h-1.5">
                 <div className="absolute top-0 left-0  bg-yellow-500 rounded-md w-[21%] h-full" />
               </div>
             </div>
@@ -93,7 +93,7 @@ export function UIAudit() {
                   / 34
                 </span>
               </div>
-              <div className="relative bg-[#54545420] rounded-md w-full h-1.5">
+              <div className="relative bg-surface-quaternary rounded-md w-full h-1.5">
                 <div className="absolute top-0 left-0  bg-red-400 rounded-md w-[18%] h-full" />
               </div>
             </div>
@@ -118,7 +118,7 @@ export function UIAudit() {
                   %
                 </span>
               </div>
-              <div className="relative bg-[#54545420] rounded-md w-full h-1.5">
+              <div className="relative bg-surface-quaternary rounded-md w-full h-1.5">
                 <div className="absolute top-0 left-0  bg-green-600 rounded-md w-[10%] h-full" />
               </div>
             </div>

@@ -157,7 +157,7 @@ export function UIBuilder() {
             className="flex flex-col gap-4 flex-1 w-3/4 h-full bg-surface-quaternary/60 px-4 pt-2 pb-4 border border-line-translucent rounded-sm"
             style={{
               backgroundImage:
-                "radial-gradient(rgb(40 40 40) 1px, transparent 1px)",
+                "radial-gradient(rgb(45 58 100) 1px, transparent 1px)",
               backgroundSize: "14px 14px",
             }}
           >
