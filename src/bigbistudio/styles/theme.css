@@ -253,6 +253,12 @@
       --text-h1--letter-spacing: -0.022em;
     }
   }
+
+  /* Global defaults — override with component-level border utilities when needed. */
+  * {
+    border-color: var(--border);
+    outline-color: var(--ring);
+  }
 }
 
 @utility container {
