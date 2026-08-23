@@ -20,19 +20,21 @@ const page = homePageData
 export function HomeView() {
   return (
     <main className="relative z-10 flex flex-col items-center justify-center w-full">
-      <HeroMainSection {...page.sections.heroMain} />
-      <LogosSection {...page.sections.clientLogos} />
-      <FeaturesCarouselSection {...page.sections.featuresCarousel} />
-      <StatisticsSection {...page.sections.statistics} />
-      <ProcessGridSection {...page.sections.processGrid} />
-      <PricingSection {...page.sections.pricing} />
-      <CaseStudiesSection {...page.sections.caseStudies} />
-      <TestimonialsSection {...page.sections.testimonials} />
-      <FAQSection
-        {...page.sections.faqGeneral}
-        questions={faqsData.faqGeneral}
-      />
-      <BlogSection {...page.sections.blog} />
+      <div className="flex flex-col border border-line-translucent divide-y divide-line-translucent">
+        <HeroMainSection {...page.sections.heroMain} />
+        <LogosSection {...page.sections.clientLogos} />
+        <FeaturesCarouselSection {...page.sections.featuresCarousel} />
+        <StatisticsSection {...page.sections.statistics} />
+        <ProcessGridSection {...page.sections.processGrid} />
+        <PricingSection {...page.sections.pricing} />
+        <CaseStudiesSection {...page.sections.caseStudies} />
+        <TestimonialsSection {...page.sections.testimonials} />
+        <FAQSection
+          {...page.sections.faqGeneral}
+          questions={faqsData.faqGeneral}
+        />
+        <BlogSection {...page.sections.blog} />
+      </div>
     </main>
   )
 }
