@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation"
 
 // Internal
 import { cn } from "@/bigbistudio/utils/shadcn-utils"
-import { Button } from "@/components/ui/button"
+
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -17,10 +17,10 @@ import {
 } from "@/components/ui/navigation-menu"
 
 import { Logo } from "@/bigbistudio/components/logo/logo"
+import { socialIconMap } from "@/bigbistudio/utils/component.maps"
 import { HeaderMobile } from "./header-mobile"
 
-import { bigbiStyles } from "@/bigbistudio/lib/bigbistyles"
-
+import { companyData } from "@/bigbistudio/data/company"
 import { navigationData } from "@/bigbistudio/data/navigation"
 
 export function Header() {
@@ -93,16 +93,29 @@ export function Header() {
             </NavigationMenuList>
           </NavigationMenu>
           <div className="flex items-center gap-2 w-fit">
-            {navigationData.header.cta && (
-              <Button
-                asChild
-                className={cn(bigbiStyles.button.primary, "px-2 py-1")}
-              >
-                <Link href={navigationData.header.cta.href} onClick={handleClose}>
-                  {navigationData.header.cta.label}
-                </Link>
-              </Button>
-            )}
+            {/* Social Media */}
+            <ul className="hidden lg:flex flex-wrap gap-6">
+              {companyData.socials.map(({ id, href, label }) => {
+                const Icon = socialIconMap[id]
+                return (
+                  <li key={id}>
+                    <Link
+                      className="text-ink-secondary hover:text-ink-primary transition-all duration-200"
+                      href={href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title={label}
+                    >
+                      {Icon ? (
+                        <Icon className="w-4 h-4 hover:scale-105 duration-200" />
+                      ) : (
+                        <span className="sr-only">{label}</span>
+                      )}
+                    </Link>
+                  </li>
+                )
+              })}
+            </ul>
             <HeaderMobile
               header={navigationData.header}
               open={open}
