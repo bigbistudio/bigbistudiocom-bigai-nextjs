@@ -16,14 +16,19 @@
   ],
   "socials": [
     {
-      "id": "linkedin",
-      "label": "LinkedIn",
-      "href": "https://linkedin.com"
-    },
-    {
       "id": "x",
       "label": "X",
-      "href": "https://x.com"
+      "href": "https://x.com/bigbistudio"
+    },
+    {
+      "id": "framer",
+      "label": "Framer",
+      "href": "https://www.framer.com/@bigbistudio/"
+    },
+    {
+      "id": "github",
+      "label": "Github",
+      "href": "https://github.com/bigbistudio"
     }
   ]
 }
