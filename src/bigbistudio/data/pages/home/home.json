@@ -21,17 +21,9 @@
             "title": "Tools we trust."
         },
         "featuresCarousel": {
-            "eyebrow": "Features",
-            "title": "Everything you need \nto run at lightspeed",
-            "subtitle": "A comprehensive suite of AI tools designed to eliminate manual overhead and unify your business logic in one secure environment.",
-            "buttons": [
-                {
-                    "btnType": "ghost",
-                    "btnTitle": "View Detail",
-                    "btnUrl": "/features",
-                    "btnIcon": "ArrowRight"
-                }
-            ]
+            "eyebrow": "Capabilities",
+            "title": "What We Build",
+            "subtitle": "From interfaces to infrastructure, we create experiences and systems built for what comes next."
         },
         "statistics": {
             "title": "Statistics",

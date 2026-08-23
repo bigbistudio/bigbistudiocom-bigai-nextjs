@@ -88,19 +88,37 @@ export function CardsCarousel() {
         }}
         className={cn(fadeClass, "carousel-fade w-full pt-16 pb-8")}
       >
-        <CarouselContent className="-ml-4 pr-20">
-          {featureData.cards.map((card) => (
-            <CarouselItem
-              key={card.id}
-              className="pl-4 basis-[110%] sm:basis-[68%] md:basis-[48%] lg:basis-79"
-            >
-              <FeatureCarouselCard card={card} onOpen={setSelectedCard} />
-            </CarouselItem>
-          ))}
-        </CarouselContent>
+        {/* Mobile / Tablet */}
+        <div className="xl:hidden">
+          <CarouselContent className="-ml-4 pr-20">
+            {featureData.cards.map((card) => (
+              <CarouselItem
+                key={card.id}
+                className="pl-4 basis-[110%] sm:basis-[68%] md:basis-[48%] lg:basis-79"
+              >
+                <FeatureCarouselCard card={card} onOpen={setSelectedCard} />
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+        </div>
 
-        <CarouselPrevious className={cn(bigbiStyles.button.carousel, "left-0 z-20")} />
-        <CarouselNext className={cn(bigbiStyles.button.carousel, "right-0 z-20")} />
+        {/* Desktop */}
+        <div className="hidden xl:grid xl:grid-cols-4 xl:gap-4">
+          {featureData.cards.map((card) => (
+            <FeatureCarouselCard
+              key={card.id}
+              card={card}
+              onOpen={setSelectedCard}
+            />
+          ))}
+        </div>
+
+        <CarouselPrevious
+          className={cn(bigbiStyles.button.carousel, "left-0 z-20")}
+        />
+        <CarouselNext
+          className={cn(bigbiStyles.button.carousel, "right-0 z-20")}
+        />
       </Carousel>
 
       <FeatureCarouselPagination

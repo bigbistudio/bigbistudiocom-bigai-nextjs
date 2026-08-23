@@ -18,7 +18,7 @@ export function FeatureCarouselPagination({
   onChange,
 }: FeatureCarouselPaginationProps) {
   return (
-    <div className="flex justify-center pb-8">
+    <div className="xl:hidden flex justify-center pb-8">
       <div className="flex gap-2.5 rounded-3xl bg-white/2 p-2.5">
         {Array.from({ length: count }).map((_, index) => (
           <motion.button

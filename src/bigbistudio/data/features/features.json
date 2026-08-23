@@ -1,12 +1,12 @@
 {
   "cards": [
     {
-      "id": "auto-workflows",
-      "title": "Auto Workflows",
-      "image": "/vectors/workflows-vector.svg",
+      "id": "digital-interfaces",
+      "title": "Digital Interfaces",
+      "image": "/vectors/bigbi-stack-vector.svg",
       "drawerContent": {
-        "title": "Autonomous Workflows.",
-        "description": "Eliminate repetitive manual tasks with sophisticated logic chains. Our AI doesn't just notify you—it executes complex operations across 500+ applications, managing everything from data processing to real-time decision-making without human intervention.",
+        "title": "Digital Interfaces.",
+        "description": "Interfaces designed around clarity, hierarchy, and meaningful interactions that make products easier to understand and use.",
         "icons": [
           "GitMerge",
           "Brain"
@@ -14,12 +14,12 @@
       }
     },
     {
-      "id": "real-time-analytics",
-      "title": "Real-time Analytics",
-      "image": "/vectors/analytics-vector.svg",
+      "id": "web-products",
+      "title": "Web Products",
+      "image": "/vectors/bigbi-stack-vector.svg",
       "drawerContent": {
-        "title": "Real-time Analytics.",
-        "description": "Stop waiting for month-end reports to understand your efficiency. Our real-time dashboard allows you to monitor agent accuracy and measure instant ROI. Track exactly how much time and capital your automated workforce is saving you, second by second.",
+        "title": "Web Products.",
+        "description": "Modern frontend experiences built on scalable, maintainable foundations that support products as they grow and evolve.",
         "icons": [
           "Activity",
           "RectangleGoggles"
@@ -27,12 +27,12 @@
       }
     },
     {
-      "id": "enterprise-security",
-      "title": "Enterprise Security",
-      "image": "/vectors/security-vector.svg",
+      "id": "design-systems",
+      "title": "Design Systems",
+      "image": "/vectors/bigbi-stack-vector.svg",
       "drawerContent": {
-        "title": "Enterprise Security.",
-        "description": "Your data is your most valuable asset. We protect it with a digital fortress. Built with AES-256 encryption and strictly adhering to SOC2 Type II compliance, we ensure your proprietary information remains private, secure, and never used for public model training.",
+        "title": "Design Systems.",
+        "description": "Reusable design and component systems that bring consistency, flexibility, and efficiency across products and digital experiences.",
         "icons": [
           "Fingerprint",
           "ShieldCheck"
@@ -40,28 +40,15 @@
       }
     },
     {
-      "id": "native-integrations",
-      "title": "Native Integrations",
-      "image": "/vectors/integration-vector.svg",
+      "id": "commerce",
+      "title": "Commerce",
+      "image": "/vectors/bigbi-stack-vector.svg",
       "drawerContent": {
-        "title": "Native Integrations.",
-        "description": "No need to rebuild your infrastructure. Our AI integrates seamlessly with the tools you already rely on—Slack, Salesforce, Jira, and n8n. Deployment is near-instant: No-code required, just pure, scalable logic tailored to your existing ecosystem.",
+        "title": "Commerce.",
+        "description": "Fast, flexible ecommerce experiences built for modern commerce platforms, with the foundations to scale and evolve.",
         "icons": [
           "Unplug",
           "Waypoints"
-        ]
-      }
-    },
-    {
-      "id": "developer-ux",
-      "title": "Developer Tools",
-      "image": "/vectors/bigai-vector.svg",
-      "drawerContent": {
-        "title": "Built for Developers.",
-        "description": "Clean architecture, reusable components, and type-safe data models make customization straightforward. Spend less time navigating your codebase and more time shipping new features.",
-        "icons": [
-          "BookOpen",
-          "SlidersHorizontal"
         ]
       }
     }
