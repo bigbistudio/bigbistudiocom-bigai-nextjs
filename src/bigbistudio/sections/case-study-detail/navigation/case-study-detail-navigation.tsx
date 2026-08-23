@@ -19,7 +19,7 @@ export function CaseStudyDetailNavigation({
   nextCaseStudy,
 }: CaseStudyDetailNavigationProps) {
   return (
-    <nav className="lg:sticky lg:bottom-2.5 flex flex-col gap-6 lg:flex-row justify-between bg-[#0F101197] backdrop-blur-xs border border-line-translucent p-4 rounded-2xl">
+    <nav className="lg:sticky lg:bottom-2.5 flex flex-col gap-6 lg:flex-row justify-between bg-surface-secondary/90 backdrop-blur-xs border border-line-translucent p-4 rounded-2xl">
       <CaseStudyNavigationCard
         caseStudy={previousCaseStudy}
         direction={siteData.labels.previous}
