@@ -5,6 +5,8 @@ export type SocialId =
   | "facebook"
   | "youtube"
   | "discord"
+  | "framer"
+  | "github"
 
 export type CompanyInfo = {
   name: string

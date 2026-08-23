@@ -5,6 +5,8 @@ export { InstagramIcon } from "./socials/instagram-icon"
 export { FacebookIcon } from "./socials/facebook-icon"
 export { YoutubeIcon } from "./socials/youtube-icon"
 export { DiscordIcon } from "./socials/discord-icon"
+export { FramerIcon } from "./socials/framer-icon"
+export { GithubIcon } from "./socials/github-icon"
 
 // Custom Icons
 export { EyebrowIcon } from "./eyebrow-icon"

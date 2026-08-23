@@ -3,7 +3,7 @@
 
 // Internal
 import { UIAudit, UIBuilder, UIIntegration, UIPerformance } from "@/bigbistudio/components/graphics"
-import { LinkedInIcon, XIcon, InstagramIcon, FacebookIcon, YoutubeIcon, DiscordIcon } from "@/bigbistudio/components/icons"
+import { LinkedInIcon, XIcon, InstagramIcon, FacebookIcon, YoutubeIcon, DiscordIcon, FramerIcon, GithubIcon } from "@/bigbistudio/components/icons"
 
 // Types
 import type { SocialId } from "@/bigbistudio/types/company.types"
@@ -23,4 +23,6 @@ export const socialIconMap: Record<SocialId, React.ComponentType<{ className?: s
   "facebook": FacebookIcon,
   "youtube": YoutubeIcon,
   "discord": DiscordIcon,
+  "framer": FramerIcon,
+  "github": GithubIcon,
 }
