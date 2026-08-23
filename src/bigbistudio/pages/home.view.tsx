@@ -20,7 +20,7 @@ const page = homePageData
 export function HomeView() {
   return (
     <main className="relative z-10 flex flex-col items-center justify-center w-full">
-      <div className="flex flex-col border border-line-translucent divide-y divide-line-translucent">
+      <div className="flex flex-col justify-center border border-line-translucent divide-y divide-line-translucent max-w-full">
         <HeroMainSection {...page.sections.heroMain} />
         <LogosSection {...page.sections.clientLogos} />
         <FeaturesCarouselSection {...page.sections.featuresCarousel} />
