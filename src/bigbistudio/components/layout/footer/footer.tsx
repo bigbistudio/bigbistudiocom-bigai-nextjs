@@ -21,7 +21,10 @@ export function Footer() {
         {/* Company Info */}
         <div className="flex flex-col gap-4 text-sm max-w-75">
           <div className="flex flex-col gap-4">
-            <Link href="/">
+            <Link
+              href="/"
+              className="active:scale-[0.99] transition-transform duration-150"
+            >
               <Logo width={180} height={36} />
             </Link>
             <span className="text-ink-tertiary leading-relaxed">
@@ -55,20 +58,23 @@ export function Footer() {
           </ul>
 
           {/* Social Media */}
-          <ul className="flex flex-wrap gap-6 mt-4">
+          <ul className="flex flex-wrap gap-2 mt-4">
             {companyData.socials.map(({ id, href, label }) => {
               const Icon = socialIconMap[id]
               return (
-                <li key={id}>
+                <li
+                  key={id}
+                  className="inline-flex items-center active:scale-[0.99] transition-transform duration-150"
+                >
                   <Link
-                    className="text-ink-quaternary hover:text-ink-primary transition-all duration-200"
+                    className="inline-block p-2 rounded-lg hover:bg-white/5 text-ink-tertiary hover:text-ink-primary cursor-pointer transition-all duration-200"
                     href={href}
                     target="_blank"
                     rel="noopener noreferrer"
                     title={label}
                   >
                     {Icon ? (
-                      <Icon className="w-5 h-5 hover:scale-105 duration-200" />
+                      <Icon className="w-5 h-5" />
                     ) : (
                       <span className="sr-only">{label}</span>
                     )}

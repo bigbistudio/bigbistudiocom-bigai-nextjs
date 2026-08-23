@@ -70,7 +70,7 @@ export function Header() {
               handleLogoClick(e)
               handleClose()
             }}
-            className="px-4 lg:px-0 active:scale-[0.97] transition-transform duration-150"
+            className="px-4 lg:px-0 active:scale-[0.99] transition-transform duration-150"
           >
             <Logo />
           </Link>
@@ -82,7 +82,7 @@ export function Header() {
                     <Link
                       href={link.href}
                       className={cn(
-                        "px-3 py-2.5 text-small! rounded-lg hover:bg-white/5 hover:text-ink-primary transition-all",
+                        "px-3 py-2.5 text-small! rounded-lg hover:bg-white/5 hover:text-ink-primary active:scale-[0.97] duration-150 transition-all",
                       )}
                     >
                       {link.label}
@@ -94,20 +94,20 @@ export function Header() {
           </NavigationMenu>
           <div className="flex items-center gap-2 w-fit">
             {/* Social Media */}
-            <ul className="hidden lg:flex flex-wrap gap-6">
+            <ul className="hidden lg:flex flex-wrap gap-2">
               {companyData.socials.map(({ id, href, label }) => {
                 const Icon = socialIconMap[id]
                 return (
-                  <li key={id}>
+                  <li key={id} className="inline-flex items-center active:scale-[0.99] transition-transform duration-150">
                     <Link
-                      className="text-ink-secondary hover:text-ink-primary transition-all duration-200"
+                      className="inline-block p-2 rounded-lg hover:bg-white/5 text-ink-secondary hover:text-ink-primary cursor-pointer transition-all duration-200"
                       href={href}
                       target="_blank"
                       rel="noopener noreferrer"
                       title={label}
                     >
                       {Icon ? (
-                        <Icon className="w-4 h-4 hover:scale-105 duration-200" />
+                        <Icon className="w-4 h-4" />
                       ) : (
                         <span className="sr-only">{label}</span>
                       )}
