@@ -1,18 +1,18 @@
 {
     "sections": {
         "heroMain": {
-            "title": "Orchestrate your entire \nbusiness with Agentic AI.",
-            "subtitle": "Unified AI Operating System.\nBuild and scale autonomous agents 24/7.",
+            "title": "Design. Technology. Commerce.",
+            "subtitle": "Structured design, modern technology, and scalable commerce.",
             "buttons": [
                 {
                     "btnType": "primary",
-                    "btnTitle": "Start Building",
-                    "btnUrl": "/contact"
+                    "btnTitle": "Explore products",
+                    "btnUrl": "/products"
                 },
                 {
                     "btnType": "ghost",
-                    "btnTitle": "How It Works",
-                    "btnUrl": "/features#process",
+                    "btnTitle": "About the studio",
+                    "btnUrl": "/about",
                     "btnIcon": "ChevronRight"
                 }
             ]
