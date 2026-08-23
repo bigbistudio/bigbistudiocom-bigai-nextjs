@@ -51,9 +51,9 @@ export function UIDashboard() {
       className="flex flex-col md:w-full min-w-244 h-150 bg-surface-secondary border border-line-translucent rounded-xl overflow-hidden scale-70 skew-y-[-10deg] origin-[0%_70%_0px] lg:scale-100 lg:skew-0 lg:translate-0"
     >
       {/* App Header */}
-      <div className="flex justify-between px-4 py-2 border-b border-line-translucent">
+      <div className="flex justify-between px-4 py-1.5 border-b border-line-translucent">
         <div className="flex gap-2 py-1.5">
-          <Logo width={50} height={18} />
+          <Logo width={80} height={18} />
           <div className="flex items-center gap-1">
             <Atom size={12} strokeWidth={1.5} className="text-accent" />
             <span className="text-ink-tertiary text-[11px] leading-4">
@@ -275,7 +275,7 @@ export function UIDashboard() {
           className="flex flex-col gap-4 flex-1 w-3/4 h-full bg-surface-quaternary/60 px-4 pt-2 pb-4"
           style={{
             backgroundImage:
-              "radial-gradient(rgb(40 40 40) 1px, transparent 1px)",
+              "radial-gradient(rgb(45 58 100) 1px, transparent 1px)",
             backgroundSize: "14px 14px",
           }}
         >
@@ -582,7 +582,7 @@ export function UIDashboard() {
                 </div>
               </div>
               <div className="flex justify-center">
-                <div className="flex gap-1.5 px-1.5 py-1 bg-[#232326] border border-line-translucent rounded-md opacity-80">
+                <div className="flex gap-1.5 px-1.5 py-1 bg-surface-primary/60 border border-line-translucent rounded-md opacity-80">
                   <div className="p-1 rounded-sm">
                     <CirclePlus
                       size={12}
@@ -618,7 +618,7 @@ export function UIDashboard() {
                       className="text-ink-secondary"
                     />
                   </div>
-                  <div className="px-1.5 py-1 rounded bg-[#2E2E2E] inline-flex items-center text-[8px] leading-2">
+                  <div className="px-1.5 py-1 rounded-sm bg-surface-tertiary inline-flex items-center text-[8px] leading-2">
                     110%
                   </div>
                   <div className="p-1 rounded-sm">
