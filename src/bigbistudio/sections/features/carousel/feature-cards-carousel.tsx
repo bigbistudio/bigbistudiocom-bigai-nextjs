@@ -94,7 +94,7 @@ export function CardsCarousel() {
             {featureData.cards.map((card) => (
               <CarouselItem
                 key={card.id}
-                className="pl-4 basis-[110%] sm:basis-[68%] md:basis-[48%] lg:basis-79"
+                className="pl-4 basis-[130%] mobile:basis-[110%] min-[420px]:basis-[90%]! min-[560px]:basis-[80%]! lg:basis-79!"
               >
                 <FeatureCarouselCard card={card} onOpen={setSelectedCard} />
               </CarouselItem>
