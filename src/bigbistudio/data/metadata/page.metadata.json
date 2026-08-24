@@ -14,14 +14,15 @@
     "description": "Discover real-world examples and showcase projects built with the AI Workflow & Automation Website Template."
   },
 
+  "products": {
+    "title": "Products - Real Workflow Automation Results",
+    "description": "Discover real-world examples and showcase projects built with the AI Workflow & Automation Website Template."
+  },
+
   "pricing": {
     "title": "bigA.i Pricing - Flexible Plans for AI Workflow Automation",
     "description": "Compare plans and choose the option that best fits your project, team, and support requirements.",
-    "keywords": [
-      "pricing",
-      "nextjs",
-      "starter"
-    ]
+    "keywords": ["pricing", "nextjs", "starter"]
   },
 
   "about": {
