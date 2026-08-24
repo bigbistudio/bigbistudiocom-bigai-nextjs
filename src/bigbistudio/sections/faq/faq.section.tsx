@@ -65,7 +65,7 @@ export function FAQSection({
 
             return (
               <AccordionItem key={item.id} value={item.id}>
-                <AccordionTrigger className="py-4 text-base font-normal cursor-pointer hover:no-underline lg:tracking-normal">
+                <AccordionTrigger className="flex items-center py-4 text-base font-normal cursor-pointer hover:no-underline lg:tracking-normal">
                   {item.title}
                 </AccordionTrigger>
                 <AccordionContent className="text-base font-normal text-ink-secondary whitespace-pre-line bg-surface-secondary border border-line-translucent rounded-lg p-4 mb-4 h-fit">
