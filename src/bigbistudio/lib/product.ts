@@ -2,7 +2,7 @@
 import {
     _cloudscale,
     _futurelogix,
-} from "@/bigbistudio/data/case-studies"
+} from "@/bigbistudio/data/products"
 
 // Types
 import type { Product, ProductSummary } from "@/bigbistudio/types/product.types"
