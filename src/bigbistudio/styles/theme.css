@@ -98,7 +98,7 @@
    * -------------------------------------------------------------------------- */
 
   --breakpoint-mobile: 22.5rem; /* 360px */
-  --breakpoint-tablet: 50.625rem; /* 810px */
+  --breakpoint-tablet: 64rem; /* 1024px */
   --breakpoint-desktop: 75rem; /* 1200px */
 
   /* --------------------------------------------------------------------------
@@ -264,7 +264,7 @@
 @utility container {
   margin-inline: auto;
   padding-inline: var(--container-padding-mobile);
-  max-width: 30rem;
+  max-width: 32rem;
 
   @media (width >= theme(--breakpoint-tablet)) {
     padding-inline: var(--container-padding-tablet);
