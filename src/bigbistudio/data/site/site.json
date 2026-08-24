@@ -31,6 +31,7 @@
         "popular": "Popular",
         "monthly": " / month",
         "homePage": "Home",
+        "products": "Products",
         "caseStudies": "Case Studies",
         "blog": "Blog",
         "readMore": "Read More",
@@ -42,6 +43,7 @@
         "lastUpdated": "Last Updated:"
     },
     "urls": {
+        "productsPage": "/products",
         "caseStudiesPage": "/case-studies",
         "blogPage": "/blog"
     },

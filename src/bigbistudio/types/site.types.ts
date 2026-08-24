@@ -31,6 +31,7 @@ export type Site = {
     popular: string
     monthly: string
     homePage: string
+    products: string
     caseStudies: string
     blog: string
     readMore: string
@@ -43,6 +44,7 @@ export type Site = {
   }
 
   urls: {
+    productsPage: string
     caseStudiesPage: string
     blogPage: string
   }
