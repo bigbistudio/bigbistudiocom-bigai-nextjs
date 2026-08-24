@@ -4,11 +4,7 @@ import { EyebrowIcon } from "@/bigbistudio/components/icons"
 // Types
 import type { SectionSettings } from "@/bigbistudio/types/common.types"
 
-export function OpenSourceSection({
-  id,
-  eyebrow,
-  title,
-}: SectionSettings) {
+export function OpenSourceSection({ id, eyebrow, title }: SectionSettings) {
   return (
     <section
       id={id}
@@ -22,6 +18,10 @@ export function OpenSourceSection({
           <h2 className="lg:whitespace-pre-line">{title}</h2>
         </div>
       )}
+
+      <div className="flex flex-col bg-surface-secondary border border-line-primary p-6 rounded-2xl min-h-100">
+
+      </div>
     </section>
   )
 }
