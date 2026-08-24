@@ -12,7 +12,7 @@ type BlogGridProps = {
 export function BlogGrid({ numberOfColumns = 2, blogs }: BlogGridProps) {
   return (
     <div
-      className={`grid grid-cols-1 sm:grid-cols-2 gap-8 xl:gap-10 ${
+      className={`grid grid-cols-1 gap-8 xl:gap-10 ${
         numberOfColumns === 2
           ? "lg:grid-cols-2"
           : numberOfColumns === 3

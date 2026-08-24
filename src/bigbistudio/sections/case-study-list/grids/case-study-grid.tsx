@@ -15,7 +15,7 @@ export function CaseStudyGrid({
 }: caseStudyGridProps) {
   return (
     <div
-      className={`grid grid-cols-1 sm:grid-cols-2 gap-8 ${
+      className={`grid grid-cols-1 gap-8 ${
         numberOfColumns === 2
           ? "lg:grid-cols-2"
           : numberOfColumns === 3

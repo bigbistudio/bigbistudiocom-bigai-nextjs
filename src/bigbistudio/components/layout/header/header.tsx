@@ -63,7 +63,7 @@ export function Header() {
   return (
     <>
       <header className="fixed top-0 left-0 w-full z-40 pointer-events-none py-4 border-b border-line-translucent bg-surface-primary">
-        <div className="flex justify-between container lg:px-0 items-center gap-10 pointer-events-auto">
+        <div className="flex justify-between container xl:px-0 items-center gap-10 pointer-events-auto">
           <Link
             href="/"
             onClick={(e) => {
