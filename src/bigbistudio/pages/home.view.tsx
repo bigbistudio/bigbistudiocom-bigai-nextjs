@@ -27,8 +27,8 @@ export function HomeView() {
         <FeaturesCarouselSection {...page.sections.featuresCarousel} />
         <ProcessGridSection {...page.sections.processGrid} />
         <OpenSourceSection {...page.sections.openSource} />
-        <PricingSection {...page.sections.pricing} />
-        <TestimonialsSection {...page.sections.testimonials} />
+        {/* <PricingSection {...page.sections.pricing} /> */}
+        {/* <TestimonialsSection {...page.sections.testimonials} /> */}
         <FAQSection
           {...page.sections.faqGeneral}
           questions={faqsData.faqGeneral}
