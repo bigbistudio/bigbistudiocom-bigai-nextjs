@@ -2,12 +2,10 @@
 import {
   HeroMainSection,
   LogosSection,
+  ProductsSection,
   FeaturesCarouselSection,
   ProcessGridSection,
-  PricingSection,
   OpenSourceSection,
-  CaseStudiesSection,
-  TestimonialsSection,
   FAQSection,
   BlogSection,
 } from "@/bigbistudio/sections/index"
@@ -22,13 +20,11 @@ export function HomeView() {
     <main className="relative z-10 flex flex-col items-center justify-center w-full">
       <div className="flex flex-col justify-center border border-line-translucent divide-y divide-line-translucent max-w-full">
         <HeroMainSection {...page.sections.heroMain} />
-        <CaseStudiesSection {...page.sections.caseStudies} />
+        <ProductsSection {...page.sections.products} />
         <LogosSection {...page.sections.clientLogos} />
         <FeaturesCarouselSection {...page.sections.featuresCarousel} />
         <ProcessGridSection {...page.sections.processGrid} />
         <OpenSourceSection {...page.sections.openSource} />
-        {/* <PricingSection {...page.sections.pricing} /> */}
-        {/* <TestimonialsSection {...page.sections.testimonials} /> */}
         <FAQSection
           {...page.sections.faqGeneral}
           questions={faqsData.faqGeneral}

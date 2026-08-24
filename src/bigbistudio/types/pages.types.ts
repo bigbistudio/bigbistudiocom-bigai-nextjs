@@ -30,6 +30,15 @@ export type BenefitsSection = {
   }[]
 }
 
+export type ProductsSection = {
+  id: string
+  eyebrow: string
+  title: string
+  subtitle: string
+  productSlugs: string[]
+  buttons: PageButton[]
+}
+
 export type CaseStudiesSection = {
   id: string
   eyebrow: string
@@ -166,6 +175,13 @@ export type CaseStudiesPageConfig = {
   }
 }
 
+export type ProductsPageConfig = {
+  sections: {
+    heroSimple: HeroSimpleSection
+    benefits: BenefitsSection
+  }
+}
+
 export type ComingSoonPageConfig = {
   sections: {
     comingSoon: ComingSoonSection
@@ -201,6 +217,7 @@ export type HomePageConfig = {
     processGrid: ProcessSection
     openSource: OpenSourceSection
     pricing: PricingSection
+    products: ProductsSection
     caseStudies: CaseStudiesSection
     testimonials: TestimonialsSection
     faqGeneral: FAQSection

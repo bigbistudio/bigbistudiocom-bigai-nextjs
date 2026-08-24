@@ -52,6 +52,24 @@
                 }
             ]
         },
+        "products": {
+            "id": "products",
+            "eyebrow": "Products",
+            "title": "One system. \nTwo implementations.",
+            "subtitle": "Our first website system, designed for AI products, automation platforms, and modern SaaS.",
+            "productSlugs": [
+                "futurelogix",
+                "cloudscale"
+            ],
+            "buttons": [
+                {
+                    "btnType": "ghost",
+                    "btnTitle": "See More",
+                    "btnUrl": "/products",
+                    "btnIcon": "ArrowRight"
+                }
+            ]
+        },
         "caseStudies": {
             "id": "case-studies",
             "eyebrow": "Case Studies",
