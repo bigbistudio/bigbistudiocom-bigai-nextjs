@@ -86,6 +86,14 @@ export type FeaturesCarouselSection = {
   buttons: PageButton[]
 }
 
+// Open Source
+
+export type OpenSourceSection = {
+  id: string
+  eyebrow: string
+  title: string
+}
+
 // Pricing
 
 export type PricingSection = {
@@ -191,6 +199,7 @@ export type HomePageConfig = {
     featuresCarousel: FeaturesCarouselSection
     statistics: BenefitsSection
     processGrid: ProcessSection
+    openSource: OpenSourceSection
     pricing: PricingSection
     caseStudies: CaseStudiesSection
     testimonials: TestimonialsSection

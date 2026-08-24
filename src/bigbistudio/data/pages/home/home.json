@@ -30,6 +30,10 @@
             "title": "How We Build",
             "subtitle": "We connect design, systems, and development instead of treating them as separate steps."
         },
+        "openSource": {
+            "eyebrow": "Open Source",
+            "title": "Build. Share."
+        },
         "pricing": {
             "eyebrow": "Pricing",
             "title": "Scale as You Grow",

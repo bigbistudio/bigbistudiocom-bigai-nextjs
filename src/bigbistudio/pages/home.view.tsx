@@ -5,6 +5,7 @@ import {
   FeaturesCarouselSection,
   ProcessGridSection,
   PricingSection,
+  OpenSourceSection,
   CaseStudiesSection,
   TestimonialsSection,
   FAQSection,
@@ -21,11 +22,12 @@ export function HomeView() {
     <main className="relative z-10 flex flex-col items-center justify-center w-full">
       <div className="flex flex-col justify-center border border-line-translucent divide-y divide-line-translucent max-w-full">
         <HeroMainSection {...page.sections.heroMain} />
+        <CaseStudiesSection {...page.sections.caseStudies} />
         <LogosSection {...page.sections.clientLogos} />
         <FeaturesCarouselSection {...page.sections.featuresCarousel} />
         <ProcessGridSection {...page.sections.processGrid} />
+        <OpenSourceSection {...page.sections.openSource} />
         <PricingSection {...page.sections.pricing} />
-        <CaseStudiesSection {...page.sections.caseStudies} />
         <TestimonialsSection {...page.sections.testimonials} />
         <FAQSection
           {...page.sections.faqGeneral}

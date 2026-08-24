@@ -31,7 +31,7 @@ export function ProcessGridSection({
           </p>
         </div>
       </div>
-      <div className="container px-0 flex flex-col lg:grid lg:grid-cols-2 gap-px bg-line-translucent border-y border-line-translucent">
+      <div className="container px-0 flex flex-col lg:grid lg:grid-cols-2 gap-px bg-line-translucent border-y-[0.9px] border-line-translucent">
         {processData.phases.map((item) => {
           const UI = item.ui ? uiGraphicMap[item.ui] : null
 

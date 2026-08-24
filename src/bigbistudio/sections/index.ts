@@ -31,3 +31,5 @@ export { ContactInfoSection } from "./contact/contact-info.section"
 
 export { LegalHeroSection } from "./legal/legal-hero.section"
 export { LegalContentSection } from "./legal/legal-content.section"
+
+export { OpenSourceSection } from "./open-source/open-source.section"
