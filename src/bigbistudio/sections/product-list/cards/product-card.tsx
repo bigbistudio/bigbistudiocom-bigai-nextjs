@@ -22,6 +22,8 @@ export function ProductCard({ product }: ProductCardProps) {
     ? lucideIcons[meta.cardIcon as LucideIconName]
     : null
 
+  const techIcon = meta.isNext ? "/tech-logos/nextjs-icon.svg" : "/tech-logos/framer-icon.svg"
+
   return (
     <Link
       href={`${siteData.urls.productsPage}/${meta.slug}`}
@@ -38,7 +40,7 @@ export function ProductCard({ product }: ProductCardProps) {
         />
       )}
       <div className="w-12 h-12 rounded-md bg-surface-tertiary">
-        <Image src={meta.logo} width={48} height={48} alt={meta.title} />
+        <Image src={techIcon} width={48} height={48} alt={meta.title} />
       </div>
       <div className="flex flex-col gap-4 lg:max-w-[80%]">
         <h2 className="text-extra-large font-normal">{meta.title}</h2>

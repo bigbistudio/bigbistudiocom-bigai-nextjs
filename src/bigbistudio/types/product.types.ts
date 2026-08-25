@@ -2,6 +2,7 @@ import type { PortableBlock } from "./article.types"
 
 export type ProductMeta = {
     slug: string
+    isNext: boolean
     featured: boolean
     status: "draft" | "published" | "archived"
     publishedAt: string // ISO 8601

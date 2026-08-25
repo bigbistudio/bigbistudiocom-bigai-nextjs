@@ -1,6 +1,7 @@
 {
     "meta": {
         "slug": "bigai-workflow-nextjs-template",
+        "isNext": true,
         "featured": false,
         "status": "published",
         "publishedAt": "2026-05-29T07:11:00Z",
