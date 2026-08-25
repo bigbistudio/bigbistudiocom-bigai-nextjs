@@ -50,11 +50,7 @@ export function ProcessTimelineSection({
               title={item.title}
               description={item.description}
             >
-              {UI ? (
-                <UI />
-              ) : (
-                <div className="h-90 w-full rounded-lg bg-surface-tertiary" />
-              )}
+              {UI && <UI />}
             </ProcessTimelinePhase>
           )
         })}

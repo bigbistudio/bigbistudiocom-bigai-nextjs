@@ -4,6 +4,7 @@ export type Phase = {
     id: string,
     phase: string
     ui?: UIGraphicId,
+    vector?: string,
     title: string
     description: string
 }

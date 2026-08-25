@@ -1,3 +1,6 @@
+// External
+import Image from "next/image"
+
 // Internal
 import { EyebrowIcon } from "@/bigbistudio/components/icons"
 import { uiGraphicMap } from "@/bigbistudio/utils/component.maps"
@@ -43,11 +46,19 @@ export function ProcessGridSection({
               <span className="text-small text-ink-quaternary">
                 {item.phase}
               </span>
-              {UI ? (
-                <UI />
-              ) : (
-                <div className="w-full h-90 bg-surface-tertiary rounded-lg" />
+
+              {UI && <UI />}
+
+              {item.vector && (
+                <Image
+                  src={item.vector}
+                  alt={item.title}
+                  width={300}
+                  height={240}
+                  className="w-full"
+                />
               )}
+
               <div className="flex flex-col gap-2.5">
                 <h3>{item.title}</h3>
                 <p className="text-body text-ink-tertiary">

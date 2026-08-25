@@ -3,28 +3,28 @@
         {
             "id": "phase01",
             "phase": "01. DISCOVER",
-            "ui": "ui-audit",
+            "vector": "/vectors/process-discover-vector.svg",
             "title": "Understand the Problem First",
             "description": "Explore your goals, users, and requirements to uncover key challenges and define a clear direction."
         },
         {
             "id": "phase02",
             "phase": "02. DESIGN",
-            "ui": "ui-builder",
+            "vector": "/vectors/process-design-vector.svg",
             "title": "Shape the Right Experience.",
             "description": "Transform ideas into thoughtful interfaces, intuitive interactions, and visual systems tailored to your product goals."
         },
         {
             "id": "phase03",
             "phase": "03. BUILD",
-            "ui": "ui-integration",
+            "vector": "/vectors/process-build-vector.svg",
             "title": "Build for Scale and Growth.",
             "description": "Turn designs into scalable digital products with modern technologies, reusable systems, and foundations built for growth."
         },
         {
             "id": "phase04",
             "phase": "04. REFINE",
-            "ui": "ui-performance",
+            "vector": "/vectors/process-refine-vector.svg",
             "title": "Polish Every Detail Carefully.",
             "description": "Test, optimize, and refine every interaction to create a fast, clear, polished, and intentional final experience."
         }
