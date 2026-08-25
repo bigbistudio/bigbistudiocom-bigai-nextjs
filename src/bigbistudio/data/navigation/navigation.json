@@ -10,10 +10,6 @@
         "href": "/about"
       },
       {
-        "label": "Insights",
-        "href": "/blog"
-      },
-      {
         "label": "Contact",
         "href": "/contact"
       }
@@ -34,10 +30,6 @@
               "href": "/features"
             },
             {
-              "label": "Studio",
-              "href": "/about"
-            },
-            {
               "label": "Our Approach",
               "href": "/about#approach"
             },
@@ -48,16 +40,12 @@
           ],
           [
             {
-              "label": "Open Source",
-              "href": "/#open-source"
+              "label": "Studio",
+              "href": "/about"
             },
             {
               "label": "Next.js Template",
               "href": "https://github.com/bigbi-studio/bigai-workflow-nextjs"
-            },
-            {
-              "label": "Insights",
-              "href": "/blog"
             },
             {
               "label": "Contact",
