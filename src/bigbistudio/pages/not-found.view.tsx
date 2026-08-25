@@ -10,8 +10,8 @@ import { siteData } from "@/bigbistudio/data/site"
 
 export function NotFoundView() {
   return (
-    <main className="relative z-10 flex flex-col items-center justify-center w-full h-screen">
-      <section className="flex flex-col items-center gap-6 text-center">
+    <main className="relative z-10 flex-1 flex flex-col items-center justify-center w-full container border-b border-x border-line-translucent">
+      <section className="flex flex-col items-center gap-6 text-center py-20">
         <h1>{siteData.page404.heading}</h1>
         <div className="flex flex-col text-body-large text-ink-tertiary">
           <span>{siteData.page404.title}</span>

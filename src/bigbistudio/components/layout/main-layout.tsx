@@ -10,7 +10,7 @@ type MainLayoutProps = {
 
 export function MainLayout({ children }: MainLayoutProps) {
   return (
-    <div className="relative min-h-screen pt-16">
+    <div className="relative flex flex-col min-h-screen pt-16">
       <Header />
       {children}
       <FooterCTA />
