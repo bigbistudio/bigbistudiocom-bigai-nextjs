@@ -24,7 +24,7 @@ export async function generateMetadata({
   }
 
   return createMetadata({
-    title: currentProduct.company.name,
+    title: currentProduct.meta.title,
     description: currentProduct.meta.title,
   })
 }

@@ -58,8 +58,8 @@
             "title": "One system. \nTwo implementations.",
             "subtitle": "Our first website system, designed for AI products, automation platforms, and modern SaaS.",
             "productSlugs": [
-                "futurelogix",
-                "cloudscale"
+                "bigai-workflow-framer-template",
+                "bigai-workflow-nextjs-template"
             ],
             "buttons": [
                 {

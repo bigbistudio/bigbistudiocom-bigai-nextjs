@@ -23,8 +23,8 @@ export function ProductGrid({
             : "lg:grid-cols-4"
       }`}
     >
-      {Products.map((study) => (
-        <ProductCard key={study.meta.slug} study={study} />
+      {Products.map((product) => (
+        <ProductCard key={product.meta.slug} product={product} />
       ))}
     </div>
   )

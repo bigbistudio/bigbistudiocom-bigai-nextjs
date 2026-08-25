@@ -1,7 +1,7 @@
-import _cloudscale from "./cloudscale.json"
-import _futurelogix from "./futurelogix.json"
+import _bigaiWorkflowFramer from "./bigai-workflow-framer.json"
+import _bigaiWorkflowNextjs from "./bigai-workflow-nextjs.json"
 
 export {
-    _cloudscale,
-    _futurelogix,
+    _bigaiWorkflowFramer,
+    _bigaiWorkflowNextjs,
 }

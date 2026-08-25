@@ -1,25 +1,12 @@
 {
     "meta": {
-        "slug": "futurelogix",
+        "slug": "bigai-workflow-nextjs-template",
         "featured": false,
         "status": "published",
         "publishedAt": "2026-05-29T07:11:00Z",
         "title": "bigA.i Workflow Next.js Template",
-        "bannerImage": "/case-studies/futurelogix-banner.png",
-        "cardIcon": "Bot"
-    },
-    "company": {
-        "name": "FutureLogix",
         "logo": "/case-studies/futurelogix-logo.svg",
-        "website": "futurelogix.co.jp",
-        "industry": "AI & Data Platforms",
-        "teamSize": "90+ employees",
-        "useCase": "Intelligent workflows"
-    },
-    "testimonial": {
-        "author": "Aiko Tanaka",
-        "role": "Director, FutureLogix",
-        "quote": "This isn't just automation; it's true operational intelligence. bigA.i has completely redefined the standard for our industry's workflow engine."
+        "cardIcon": "Bot"
     },
     "content": [
         {

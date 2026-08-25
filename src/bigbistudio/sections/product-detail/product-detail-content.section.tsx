@@ -24,7 +24,7 @@ export async function ProductDetailContentSection({
       <div className="prose prose-invert flex flex-col mb-10 max-w-180">
         <PortableText blocks={currentProduct.content} />
       </div>
-      <div className="lg:sticky lg:top-90 mt-6 flex flex-col gap-4 p-6 rounded-xl bg-surface-secondary border border-line-translucent w-full lg:w-80 h-fit">
+      <div className="lg:sticky lg:top-40 mt-6 lg:mt-10 flex flex-col gap-4 p-6 rounded-xl bg-surface-secondary border border-line-translucent w-full lg:w-80 h-fit">
         <Button
           asChild
           variant="secondary"

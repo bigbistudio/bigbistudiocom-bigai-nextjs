@@ -13,11 +13,11 @@ import type { LucideIconName } from "@/bigbistudio/utils/lucide-icons.maps"
 import type { ProductSummary } from "@/bigbistudio/types/product.types"
 
 type ProductCardProps = {
-  study: ProductSummary
+  product: ProductSummary
 }
 
-export function ProductCard({ study }: ProductCardProps) {
-  const { meta, company } = study
+export function ProductCard({ product }: ProductCardProps) {
+  const { meta } = product
   const Icon = meta.cardIcon
     ? lucideIcons[meta.cardIcon as LucideIconName]
     : null
@@ -38,7 +38,7 @@ export function ProductCard({ study }: ProductCardProps) {
         />
       )}
       <div className="w-12 h-12 rounded-md bg-surface-tertiary">
-        <Image src={company.logo} width={48} height={48} alt={company.name} />
+        <Image src={meta.logo} width={48} height={48} alt={meta.title} />
       </div>
       <div className="flex flex-col gap-4 lg:max-w-[80%]">
         <h2 className="text-extra-large font-normal">{meta.title}</h2>

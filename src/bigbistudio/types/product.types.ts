@@ -6,31 +6,14 @@ export type ProductMeta = {
     status: "draft" | "published" | "archived"
     publishedAt: string // ISO 8601
     title: string
-    bannerImage: string
-    cardIcon: string
-}
-
-export type ProductCompany = {
-    name: string
     logo: string
-    website: string
-    industry: string
-    teamSize: string
-    useCase: string
-}
-
-export type ProductTestimonial = {
-    author: string
-    role: string
-    quote: string
+    cardIcon: string
 }
 
 export type ProductSummary = {
     meta: ProductMeta
-    company: ProductCompany
 }
 
 export type Product = ProductSummary & {
-    testimonial?: ProductTestimonial
     content: PortableBlock[]
 }

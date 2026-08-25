@@ -11,11 +11,11 @@ import { cn } from "@/bigbistudio/utils/shadcn-utils"
 import { siteData } from "@/bigbistudio/data/site"
 
 type ProductDetailBreadcrumbProps = {
-  companyName: string
+  title: string
 }
 
 export function ProductDetailBreadcrumb({
-  companyName,
+  title,
 }: ProductDetailBreadcrumbProps) {
   return (
     <Breadcrumb>
@@ -31,7 +31,7 @@ export function ProductDetailBreadcrumb({
         </BreadcrumbItem>
         <span className="mx-1">/</span>
         <BreadcrumbItem>
-          <BreadcrumbPage className={cn("text-ink-primary!")}>{companyName}</BreadcrumbPage>
+          <BreadcrumbPage className={cn("text-ink-primary!")}>{title}</BreadcrumbPage>
         </BreadcrumbItem>
       </BreadcrumbList>
     </Breadcrumb>

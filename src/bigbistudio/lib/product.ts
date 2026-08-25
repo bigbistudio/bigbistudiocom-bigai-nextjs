@@ -1,7 +1,7 @@
 // Internal
 import {
-    _cloudscale,
-    _futurelogix,
+    _bigaiWorkflowFramer,
+    _bigaiWorkflowNextjs,
 } from "@/bigbistudio/data/products"
 
 // Types
@@ -9,8 +9,8 @@ import type { Product, ProductSummary } from "@/bigbistudio/types/product.types"
 
 /** Temporary data source → Sanity (future) */
 const Products = [
-    _cloudscale,
-    _futurelogix,
+    _bigaiWorkflowFramer,
+    _bigaiWorkflowNextjs,
 ] as Product[]
 
 // Local JSON is synchronous, but we intentionally keep the async
@@ -30,9 +30,8 @@ export async function getAllProducts(): Promise<ProductSummary[]> {
         )
 
         // Exclude article content.
-        .map(({ meta, company }) => ({
+        .map(({ meta }) => ({
             meta,
-            company,
         }))
 }
 
@@ -57,8 +56,7 @@ export async function getProductsBySlugs(
         await Promise.all(slugs.map(getAProductBySlug))
     ).filter(
         (product): product is Product => product !== null,
-    ).map(({ meta, company }) => ({
+    ).map(({ meta }) => ({
         meta,
-        company,
     }))
 }
