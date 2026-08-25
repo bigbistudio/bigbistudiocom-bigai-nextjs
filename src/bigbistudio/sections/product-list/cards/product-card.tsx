@@ -22,7 +22,7 @@ export function ProductCard({ product }: ProductCardProps) {
     ? lucideIcons[meta.cardIcon as LucideIconName]
     : null
 
-  const techIcon = meta.isNext ? "/tech-logos/nextjs-icon.svg" : "/tech-logos/framer-icon.svg"
+  const techIcon = meta.isNext ? "/tech/nextjs-icon.svg" : "/tech/framer-icon.svg"
 
   return (
     <Link

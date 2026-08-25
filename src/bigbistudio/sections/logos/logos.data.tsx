@@ -25,7 +25,7 @@ export const logos: LogoItem[] = [
   {
     logo: (
       <Image
-        src="/tech-logos/nextjs-logo.svg"
+        src="/tech/nextjs-logo.svg"
         alt="Next.js"
         {...imageProps}
       />
@@ -34,7 +34,7 @@ export const logos: LogoItem[] = [
   {
     logo: (
       <Image
-        src="/tech-logos/react-logo.svg"
+        src="/tech/react-logo.svg"
         alt="React"
         {...imageProps}
       />
@@ -43,7 +43,7 @@ export const logos: LogoItem[] = [
   {
     logo: (
       <Image
-        src="/tech-logos/typescript-logo.svg"
+        src="/tech/typescript-logo.svg"
         alt="Typescript"
         {...imageProps}
       />
@@ -52,7 +52,7 @@ export const logos: LogoItem[] = [
   {
     logo: (
       <Image
-        src="/tech-logos/tailwindcss-logo.svg"
+        src="/tech/tailwindcss-logo.svg"
         alt="TailwindCss"
         {...imageProps}
       />
@@ -61,7 +61,7 @@ export const logos: LogoItem[] = [
   {
     logo: (
       <Image
-        src="/tech-logos/framer-logo.svg"
+        src="/tech/framer-logo.svg"
         alt="Framer"
         {...imageProps}
       />
@@ -70,7 +70,7 @@ export const logos: LogoItem[] = [
   {
     logo: (
       <Image
-        src="/tech-logos/figma-logo.svg"
+        src="/tech/figma-logo.svg"
         alt="Figma"
         {...imageProps}
       />
@@ -79,7 +79,7 @@ export const logos: LogoItem[] = [
   {
     logo: (
       <Image
-        src="/tech-logos/shopify-logo.svg"
+        src="/tech/shopify-logo.svg"
         alt="Shopify"
         {...imageProps}
       />
@@ -88,7 +88,7 @@ export const logos: LogoItem[] = [
   {
     logo: (
       <Image
-        src="/tech-logos/vercel-logo.svg"
+        src="/tech/vercel-logo.svg"
         alt="Vercel"
         {...imageProps}
       />
