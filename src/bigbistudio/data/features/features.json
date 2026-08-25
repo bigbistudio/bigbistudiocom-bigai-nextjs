@@ -3,53 +3,37 @@
     {
       "id": "digital-interfaces",
       "title": "Digital Interfaces",
-      "image": "/vectors/bigbi-stack-vector.svg",
+      "icon": "Wallpaper",
       "drawerContent": {
         "title": "Digital Interfaces.",
-        "description": "Interfaces designed around clarity, hierarchy, and meaningful interactions that make products easier to understand and use.",
-        "icons": [
-          "GitMerge",
-          "Brain"
-        ]
+        "description": "Interfaces designed around clarity, hierarchy, and meaningful interactions that make products easier to understand and use."
       }
     },
     {
       "id": "web-products",
       "title": "Web Products",
-      "image": "/vectors/bigbi-stack-vector.svg",
+      "icon": "Compass",
       "drawerContent": {
         "title": "Web Products.",
-        "description": "Modern frontend experiences built on scalable, maintainable foundations that support products as they grow and evolve.",
-        "icons": [
-          "Activity",
-          "RectangleGoggles"
-        ]
+        "description": "Modern frontend experiences built on scalable, maintainable foundations that support products as they grow and evolve."
       }
     },
     {
       "id": "design-systems",
       "title": "Design Systems",
-      "image": "/vectors/bigbi-stack-vector.svg",
+      "icon": "Palette",
       "drawerContent": {
         "title": "Design Systems.",
-        "description": "Reusable design and component systems that bring consistency, flexibility, and efficiency across products and digital experiences.",
-        "icons": [
-          "Fingerprint",
-          "ShieldCheck"
-        ]
+        "description": "Reusable design and component systems that bring consistency, flexibility, and efficiency across products and digital experiences."
       }
     },
     {
       "id": "commerce",
       "title": "Commerce",
-      "image": "/vectors/bigbi-stack-vector.svg",
+      "icon": "ShoppingBag",
       "drawerContent": {
         "title": "Commerce.",
-        "description": "Fast, flexible ecommerce experiences built for modern commerce platforms, with the foundations to scale and evolve.",
-        "icons": [
-          "Unplug",
-          "Waypoints"
-        ]
+        "description": "Fast, flexible ecommerce experiences built for modern commerce platforms, with the foundations to scale and evolve."
       }
     }
   ]

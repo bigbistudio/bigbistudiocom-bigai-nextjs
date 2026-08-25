@@ -36,6 +36,10 @@ import {
   Send,
   MessageCircleCode,
   SplinePointer,
+  Wallpaper,
+  Compass,
+  Palette,
+  ShoppingBag,
   type LucideIcon,
 } from "lucide-react"
 
@@ -69,6 +73,10 @@ export const lucideIcons = {
   Send,
   MessageCircleCode,
   SplinePointer,
+  Wallpaper,
+  Compass,
+  Palette,
+  ShoppingBag,
 } satisfies Record<string, LucideIcon>
 
 // Valid icon names for content and component props.

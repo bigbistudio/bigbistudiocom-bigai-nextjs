@@ -8,6 +8,7 @@ export type FeatureCard = {
   id: string
   title: string
   image: string
+  icon: string
   drawerContent: FeatureDrawer
 }
 

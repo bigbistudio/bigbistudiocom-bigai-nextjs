@@ -1,5 +1,9 @@
 // Internal
-import { DrawerDescription, DrawerHeader, DrawerTitle } from "@/components/ui/drawer"
+import {
+  DrawerDescription,
+  DrawerHeader,
+  DrawerTitle,
+} from "@/components/ui/drawer"
 import {
   lucideIcons,
   type LucideIconName,
@@ -12,9 +16,11 @@ type FeatureDrawerContentProps = {
   selectedCard: FeatureCard
 }
 
-export function FeatureDrawerContent({ selectedCard }: FeatureDrawerContentProps) {
+export function FeatureDrawerContent({
+  selectedCard,
+}: FeatureDrawerContentProps) {
   return (
-    <div className="flex flex-col gap-8 max-w-152 mx-auto px-6 pt-10 pb-20">
+    <div className="flex flex-col gap-8 max-w-152 mx-auto px-6 pt-10 pb-32">
       <DrawerHeader className="gap-6 md:gap-6">
         <DrawerTitle className="text-lead! text-left">
           {selectedCard.drawerContent.title}
@@ -24,15 +30,17 @@ export function FeatureDrawerContent({ selectedCard }: FeatureDrawerContentProps
         </DrawerDescription>
       </DrawerHeader>
 
-      <div className="flex justify-center gap-10 text-ink-primary">
-        {selectedCard.drawerContent.icons.map((item, index) => {
-          const Icon = item ? lucideIcons[item as LucideIconName] : null
+      {selectedCard.drawerContent.icons && (
+        <div className="flex justify-center gap-10 text-ink-primary">
+          {selectedCard.drawerContent.icons.map((item, index) => {
+            const Icon = item ? lucideIcons[item as LucideIconName] : null
 
-          return Icon ? (
-            <Icon key={index} size={40} strokeWidth={1.75} />
-          ) : null
-        })}
-      </div>
+            return Icon ? (
+              <Icon key={index} size={40} strokeWidth={1.75} />
+            ) : null
+          })}
+        </div>
+      )}
     </div>
   )
 }
