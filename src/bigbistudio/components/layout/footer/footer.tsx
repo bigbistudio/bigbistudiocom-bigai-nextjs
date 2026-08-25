@@ -124,7 +124,7 @@ export function Footer() {
           </span>
           <Link
             className="text-small text-ink-quaternary hover:text-ink-primary tracking-wide transition-all duration-200"
-            href="https://github.com/bigbi-studio/bigai-workflow-nextjs"
+            href="https://github.com/bigbistudio/bigai-workflow-nextjs"
             target="_blank"
             rel="noopener noreferrer"
           >
