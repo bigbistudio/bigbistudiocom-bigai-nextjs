@@ -34,6 +34,8 @@ import {
   Map,
   MapPin,
   Send,
+  MessageCircleCode,
+  SplinePointer,
   type LucideIcon,
 } from "lucide-react"
 
@@ -65,6 +67,8 @@ export const lucideIcons = {
   Map,
   MapPin,
   Send,
+  MessageCircleCode,
+  SplinePointer,
 } satisfies Record<string, LucideIcon>
 
 // Valid icon names for content and component props.
