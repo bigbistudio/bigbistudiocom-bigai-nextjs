@@ -11,13 +11,13 @@ type ProductDetailViewProps = {
   currentProduct: Product
 }
 
-export function ProductDetailView({
-  currentProduct,
-}: ProductDetailViewProps) {
+export function ProductDetailView({ currentProduct }: ProductDetailViewProps) {
   return (
-    <main className="container relative flex flex-col lg:max-w-180 px-4 py-20 z-10">
-      <ProductDetailHeroSection currentProduct={currentProduct} />
-      <ProductDetailContentSection currentProduct={currentProduct} />
+    <main className="relative z-10 flex flex-col items-center justify-center w-full">
+      <div className="container px-0 flex flex-col justify-center border border-line-translucent divide-y divide-line-translucent py-20">
+        <ProductDetailHeroSection currentProduct={currentProduct} />
+        <ProductDetailContentSection currentProduct={currentProduct} />
+      </div>
     </main>
   )
 }

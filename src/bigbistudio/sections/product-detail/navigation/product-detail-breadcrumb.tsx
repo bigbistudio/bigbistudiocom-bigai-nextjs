@@ -19,7 +19,7 @@ export function ProductDetailBreadcrumb({
 }: ProductDetailBreadcrumbProps) {
   return (
     <Breadcrumb>
-      <BreadcrumbList className={cn("justify-center text-[13px]! text-ink-tertiary!")}>
+      <BreadcrumbList className={cn("text-[13px]! text-ink-tertiary!")}>
         <BreadcrumbItem>
           <BreadcrumbLink href="/">{siteData.labels.homePage}</BreadcrumbLink>
         </BreadcrumbItem>
