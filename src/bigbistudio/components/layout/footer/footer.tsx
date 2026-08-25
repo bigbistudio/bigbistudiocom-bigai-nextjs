@@ -15,17 +15,17 @@ import { navigationData } from "@/bigbistudio/data/navigation"
 
 export function Footer() {
   return (
-    <footer className="border-t border-line-translucent">
+    <footer className="border-t border-line-translucent divide-y divide-line-translucent">
       {/* Footer Main Area */}
-      <div className="container flex flex-col lg:flex-row gap-10 justify-between py-20">
+      <div className="container flex flex-col lg:flex-row gap-10 justify-between py-20 border-x border-line-translucent">
         {/* Company Info */}
-        <div className="flex flex-col gap-4 text-sm max-w-75">
+        <div className="flex flex-col gap-4 text-sm max-w-100">
           <div className="flex flex-col gap-4">
             <Link
               href="/"
               className="active:scale-[0.99] transition-transform duration-150"
             >
-              <Logo width={180} height={36} />
+              <Logo width={160} height={32} />
             </Link>
             <span className="text-ink-tertiary leading-relaxed">
               {companyData.slogan}
@@ -40,7 +40,7 @@ export function Footer() {
               return (
                 <li
                   key={item.id}
-                  className="flex items-center gap-1.5 text-ink-tertiary hover:text-ink-primary duration-200"
+                  className="flex items-center gap-1.5 text-ink-tertiary hover:text-ink-primary duration-200 w-fit"
                 >
                   {Icon && <Icon size={12} strokeWidth={2} />}
                   <Link
@@ -58,7 +58,7 @@ export function Footer() {
           </ul>
 
           {/* Social Media */}
-          <ul className="flex flex-wrap gap-2 mt-4">
+          <ul className="flex flex-wrap gap-2">
             {companyData.socials.map(({ id, href, label }) => {
               const Icon = socialIconMap[id]
               return (
@@ -117,13 +117,13 @@ export function Footer() {
       </div>
 
       {/* Footer Bottom Area */}
-      <div className="flex flex-col items-center pb-20 lg:pb-8">
+      <div className="container flex flex-col items-center py-12 lg:py-6 border-x border-line-translucent">
         <div className="flex flex-col items-center gap-2 text-small">
           <span className="font-semibold text-ink-tertiary">
             {companyData.copyright}
           </span>
           <Link
-            className="text-ink-quaternary hover:text-ink-primary tracking-wide transition-all duration-200"
+            className="text-small text-ink-quaternary hover:text-ink-primary tracking-wide transition-all duration-200"
             href="https://github.com/bigbi-studio/bigai-workflow-nextjs"
             target="_blank"
             rel="noopener noreferrer"
