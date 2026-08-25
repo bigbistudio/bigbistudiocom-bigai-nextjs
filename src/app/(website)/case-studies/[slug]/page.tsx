@@ -29,7 +29,14 @@ export async function generateMetadata({
   })
 }
 
-export default async function CaseStudyDetailPage({ params }: CaseStudyDetailPageProps) {
+export default async function CaseStudyDetailPage({
+  params,
+}: CaseStudyDetailPageProps) {
+  const isDisabled = true
+
+  if (isDisabled) {
+    notFound()
+  }
   const { slug } = await params
 
   const currentCaseStudy = await getACaseStudyBySlug(slug)

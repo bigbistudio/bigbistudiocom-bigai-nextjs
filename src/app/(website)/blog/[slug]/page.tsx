@@ -30,6 +30,12 @@ export async function generateMetadata({
 }
 
 export default async function BlogDetailPage({ params }: BlogDetailPageProps) {
+  const isDisabled = true;
+  
+  if (isDisabled) {
+    notFound()
+  }
+
   const { slug } = await params
 
   const currentBlog = await getABlogBySlug(slug)
