@@ -7,7 +7,6 @@ import {
   ProcessGridSection,
   OpenSourceSection,
   FAQSection,
-  BlogSection,
 } from "@/bigbistudio/sections/index"
 
 import { homePageData } from "@/bigbistudio/data/pages"
@@ -29,7 +28,6 @@ export function HomeView() {
           {...page.sections.faqGeneral}
           questions={faqsData.faqGeneral}
         />
-        <BlogSection {...page.sections.blog} />
       </div>
     </main>
   )
