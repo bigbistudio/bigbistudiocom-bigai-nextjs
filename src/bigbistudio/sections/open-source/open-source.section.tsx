@@ -4,11 +4,17 @@ import { GitPullRequest, Lightbulb, Share2, Users, Wrench } from "lucide-react"
 // Internal
 import { EyebrowIcon } from "@/bigbistudio/components/icons"
 import { UIGithubInsight } from "@/bigbistudio/components/graphics/ui-github-insight"
+import { ButtonCtaGroup } from "@/bigbistudio/components/ui"
 
 // Types
 import type { SectionSettings } from "@/bigbistudio/types/common.types"
 
-export function OpenSourceSection({ id, eyebrow, title }: SectionSettings) {
+export function OpenSourceSection({
+  id,
+  eyebrow,
+  title,
+  buttons,
+}: SectionSettings) {
   return (
     <section
       id={id}
@@ -119,6 +125,10 @@ export function OpenSourceSection({ id, eyebrow, title }: SectionSettings) {
         </div>
 
         <UIGithubInsight />
+      </div>
+
+      <div className="flex justify-center gap-2.5">
+        <ButtonCtaGroup buttons={buttons} />
       </div>
     </section>
   )

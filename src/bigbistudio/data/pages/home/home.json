@@ -32,7 +32,16 @@
         },
         "openSource": {
             "eyebrow": "Open Source",
-            "title": "Build. Share."
+            "title": "Build. Share.",
+            "buttons": [
+                {
+                    "btnType": "ghost",
+                    "btnTitle": "View on GitHub",
+                    "btnUrl": "https://github.com/bigbistudio/bigai-workflow-nextjs",
+                    "targetBlank": true,
+                    "btnIcon": "ArrowRight"
+                }
+            ]
         },
         "pricing": {
             "eyebrow": "Pricing",
