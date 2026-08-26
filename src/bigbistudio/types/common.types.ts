@@ -9,6 +9,7 @@ export type CtaButtonOfSection = {
   btnTitle: string
   btnUrl: string
   btnIcon?: string
+  targetBlank?: boolean
 }
 
 export type SectionSettings = {

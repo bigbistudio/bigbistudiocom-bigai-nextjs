@@ -37,7 +37,11 @@ export function ButtonCtaGroup({ buttons }: SectionSettings) {
             key={item.btnTitle}
             className={cn(bigbiStyles.button[buttonType])}
           >
-            <Link href={item.btnUrl}>
+            <Link
+              href={item.btnUrl}
+              target={item.targetBlank ? "_blank" : undefined}
+              rel={item.targetBlank ? "noopener noreferrer" : undefined}
+            >
               {item.btnTitle}
               {Icon && <Icon size={16} strokeWidth={2} />}
             </Link>
