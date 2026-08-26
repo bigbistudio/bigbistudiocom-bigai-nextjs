@@ -33,7 +33,7 @@ export function HeroMainSection({
           alt="bigbi stack vector"
           width={500}
           height={400}
-          className="mx-auto"
+          className="max-w-125 mx-auto"
         />
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_60%,#0f1e4a_100%)]" />
       </div>
