@@ -50,13 +50,16 @@ export function ProcessGridSection({
               {UI && <UI />}
 
               {item.vector && (
-                <Image
-                  src={item.vector}
-                  alt={item.title}
-                  width={300}
-                  height={240}
-                  className="w-full"
-                />
+                <div className="relative">
+                  <Image
+                    src={item.vector}
+                    alt={item.title}
+                    width={300}
+                    height={240}
+                    className="w-full"
+                  />
+                  <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_30%,#0f1e4a_100%)]" />
+                </div>
               )}
 
               <div className="flex flex-col gap-2.5">
