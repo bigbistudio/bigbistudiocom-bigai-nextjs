@@ -1,24 +1,24 @@
 {
     "faqGeneral": [
         {
-            "id": "implementation",
-            "title": "How long does implementation take?",
-            "answer": "Answer: Most teams are up and running within 24–48 hours. Our visual builder and pre-built templates enable fast deployment without needing a developer."
+            "id": "bigbi-studio",
+            "title": "What is bigbi studio?",
+            "answer": "bigbi studio is an independent product studio focused on digital interfaces, web products, design systems, and modern commerce experiences."
         },
         {
-            "id": "data",
-            "title": "Is my data used to train public AI models?",
-            "answer": "Answer: Absolutely not. We follow strict data sovereignty practices. Your data is encrypted, isolated, and never used to train public models."
+            "id": "bigai",
+            "title": "What is bigA.i Workflow?",
+            "answer": "bigA.i Workflow is a website system for AI products, automation platforms, and modern SaaS."
         },
         {
-            "id": "integrate",
-            "title": "Can bigA.i integrate with legacy software?",
-            "answer": "Answer: Yes. Beyond our 500+ native integrations, we provide a robust API and Webhook system to connect with any proprietary or legacy system in your stack."
+            "id": "versions",
+            "title": "Why are there Framer and Next.js versions?",
+            "answer": "The two versions share the same design direction while serving different ways of building websites."
         },
         {
-            "id": "discounts",
-            "title": "Do you offer discounts for non-profits?",
-            "answer": "Answer: Yes. We support non-profit and mission-driven organizations with special pricing options. If you qualify, simply reach out to our team and we’ll be happy to discuss available discounts and plans."
+            "id": "open-source",
+            "title": "Is the Next.js template open source?",
+            "answer": "Yes. The Next.js version is available publicly on GitHub."
         }
     ],
     "faqPricing": [
