@@ -39,7 +39,7 @@
                     "btnTitle": "View on GitHub",
                     "btnUrl": "https://github.com/bigbistudio/bigai-workflow-nextjs",
                     "targetBlank": true,
-                    "btnIcon": "ArrowRight"
+                    "btnIcon": "ArrowUpRight"
                 }
             ]
         },

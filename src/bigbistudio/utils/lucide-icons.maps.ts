@@ -44,6 +44,7 @@ import {
   LayoutTemplate,
   Leaf,
   Rocket,
+  ArrowUpRight,
   type LucideIcon,
 } from "lucide-react"
 
@@ -85,6 +86,7 @@ export const lucideIcons = {
   LayoutTemplate,
   Leaf,
   Rocket,
+  ArrowUpRight,
 } satisfies Record<string, LucideIcon>
 
 // Valid icon names for content and component props.
