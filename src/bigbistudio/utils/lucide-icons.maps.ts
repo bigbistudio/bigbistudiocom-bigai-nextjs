@@ -40,6 +40,10 @@ import {
   Compass,
   Palette,
   ShoppingBag,
+  Workflow,
+  LayoutTemplate,
+  Leaf,
+  Rocket,
   type LucideIcon,
 } from "lucide-react"
 
@@ -77,6 +81,10 @@ export const lucideIcons = {
   Compass,
   Palette,
   ShoppingBag,
+  Workflow,
+  LayoutTemplate,
+  Leaf,
+  Rocket,
 } satisfies Record<string, LucideIcon>
 
 // Valid icon names for content and component props.

@@ -1,8 +1,12 @@
 // Internal
-import { HeroSimpleSection } from "@/bigbistudio/sections"
+import {
+  HeroSimpleSection,
+  FeaturesCarouselSection,
+} from "@/bigbistudio/sections"
 import { ProductGrid } from "@/bigbistudio/sections/product-list/grids/product-grid"
 
 import { productsPageData } from "@/bigbistudio/data/pages"
+import { highlightsData } from "@/bigbistudio/data/highlights"
 
 // Types
 import type { ProductSummary } from "@/bigbistudio/types/product.types"
@@ -21,6 +25,10 @@ export function ProductListView({ Products }: ProductListViewProps) {
         <div className="container flex flex-col justify-center py-20">
           <ProductGrid Products={Products} />
         </div>
+        <FeaturesCarouselSection
+          {...page.sections.featuresCarousel}
+          carouselData={highlightsData}
+        />
       </div>
     </main>
   )

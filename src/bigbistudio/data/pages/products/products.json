@@ -3,6 +3,11 @@
         "heroSimple": {
             "title": "Products",
             "subtitle": "We build reusable tools, website systems, and open-source foundations designed for modern teams."
+        },
+        "featuresCarousel": {
+            "eyebrow": "Highlights",
+            "title": "Built for modern \nproduct teams",
+            "subtitle": "Thoughtful systems and flexible foundations that help teams build clearer products, consistent experiences, and move from idea to production."
         }
     }
 }

@@ -178,7 +178,7 @@ export type CaseStudiesPageConfig = {
 export type ProductsPageConfig = {
   sections: {
     heroSimple: HeroSimpleSection
-    benefits: BenefitsSection
+    featuresCarousel: FeaturesCarouselSection
   }
 }
 

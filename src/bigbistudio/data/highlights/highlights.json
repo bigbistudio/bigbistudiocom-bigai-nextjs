@@ -1,0 +1,40 @@
+{
+  "cards": [
+    {
+      "id": "workflow-driven",
+      "title": "Workflow-Driven",
+      "icon": "Workflow",
+      "drawerContent": {
+        "title": "Workflow-Driven.",
+        "description": "Structure complex products around clear workflows, making processes, relationships, and interactions easier to understand without unnecessary complexity."
+      }
+    },
+    {
+      "id": "reusable-sections",
+      "title": "Reusable Sections",
+      "icon": "LayoutTemplate",
+      "drawerContent": {
+        "title": "Reusable Sections.",
+        "description": "Build flexible, composable layouts with modular sections that adapt across pages, products, and content needs, making it easier to create consistent experiences without rebuilding the same patterns."
+      }
+    },
+    {
+      "id": "design-foundations",
+      "title": "Design Foundations",
+      "icon": "Leaf",
+      "drawerContent": {
+        "title": "Design Foundations.",
+        "description": "Connect shared design foundations across interfaces and code to maintain visual consistency, speed up iteration, and create a reliable system that can evolve alongside the product and team."
+      }
+    },
+    {
+      "id": "production-ready",
+      "title": "Production Ready",
+      "icon": "Rocket",
+      "drawerContent": {
+        "title": "Production Ready.",
+        "description": "Move from early concepts to polished experiences with scalable architecture, responsive interfaces, and maintainable frontend code built for long-term growth."
+      }
+    }
+  ]
+}
