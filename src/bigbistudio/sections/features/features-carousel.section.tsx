@@ -4,8 +4,13 @@ import { ButtonCtaGroup } from "@/bigbistudio/components/ui"
 import { CardsCarousel } from "./carousel/feature-cards-carousel"
 import { FeatureSectionHeader } from "./header/features-section-header"
 
+import { featureData } from "@/bigbistudio/data/features"
+
 // Types
 import type { SectionSettings } from "@/bigbistudio/types/common.types"
+import type { Features } from "@/bigbistudio/types/features.types"
+
+const carouselData = featureData as Features
 
 export function FeaturesCarouselSection({
   id,
@@ -24,7 +29,7 @@ export function FeaturesCarouselSection({
         title={title}
         subtitle={subtitle}
       />
-      <CardsCarousel />
+      <CardsCarousel {...carouselData} />
       <div className="flex justify-center gap-2.5">
         <ButtonCtaGroup buttons={buttons} />
       </div>

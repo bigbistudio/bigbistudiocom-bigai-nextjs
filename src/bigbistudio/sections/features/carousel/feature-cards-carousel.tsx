@@ -13,7 +13,6 @@ import {
   type CarouselApi,
 } from "@/components/ui/carousel"
 
-import { featureData } from "@/bigbistudio/data/features"
 import { cn } from "@/bigbistudio/utils/shadcn-utils"
 import { bigbiStyles } from "@/bigbistudio/lib/bigbistyles"
 
@@ -23,9 +22,10 @@ import { FeatureCarouselPagination } from "./feature-carousel-pagination"
 import { FeatureDrawerContent } from "./drawer/feature-drawer-content"
 
 // Types
+import type { Features } from "@/bigbistudio/types/features.types"
 import type { FeatureCard } from "@/bigbistudio/types/features.types"
 
-export function CardsCarousel() {
+export function CardsCarousel(featureData: Features) {
   // Track the current carousel navigation state.
   const [api, setApi] = useState<CarouselApi>()
   const [canPrev, setCanPrev] = useState(false)
