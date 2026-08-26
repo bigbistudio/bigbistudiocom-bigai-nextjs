@@ -27,15 +27,15 @@
           [
             {
               "label": "Products",
-              "href": "/features"
-            },
-            {
-              "label": "Our Approach",
-              "href": "/about#approach"
+              "href": "/products"
             },
             {
               "label": "What We Build",
               "href": "/#what-we-build"
+            },
+            {
+              "label": "How We Build",
+              "href": "/#how-we-build"
             }
           ],
           [
@@ -44,8 +44,8 @@
               "href": "/about"
             },
             {
-              "label": "Next.js Template",
-              "href": "https://github.com/bigbi-studio/bigai-workflow-nextjs"
+              "label": "Open Source",
+              "href": "/#open-source"
             },
             {
               "label": "Contact",
