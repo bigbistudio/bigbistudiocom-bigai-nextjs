@@ -30,7 +30,7 @@ export function OpenSourceSection({
       )}
 
       <div className="flex flex-col-reverse lg:flex-row lg:justify-between gap-8 bg-surface-secondary border border-line-primary p-6 rounded-2xl min-h-100">
-        <div className="flex items-center lg:px-4">
+        <div className="flex items-center lg:px-8 xl:px-16">
           <ul className="relative flex flex-col gap-6">
             {/* Timeline */}
             <div className="pointer-events-none absolute left-4 top-4 bottom-4 w-px -translate-x-1/2 overflow-hidden bg-line-tertiary">
