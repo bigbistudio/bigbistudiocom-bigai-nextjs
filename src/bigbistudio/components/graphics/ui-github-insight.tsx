@@ -15,7 +15,7 @@ export function UIGithubInsight() {
   return (
     <div
       aria-hidden="true"
-      className="flex flex-col p-4 bg-surface-primary border border-line-translucent rounded-xl lg:h-90 max-w-lg"
+      className="flex flex-col p-4 bg-surface-primary border border-line-translucent rounded-xl lg:h-90 max-w-xl"
     >
       <div className="flex flex-col gap-2.5">
         <div className="flex items-center gap-2">
