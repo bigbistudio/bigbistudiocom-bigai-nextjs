@@ -27,7 +27,9 @@ export function OpenSourceSection({ id, eyebrow, title }: SectionSettings) {
         <div className="flex items-center lg:px-4">
           <ul className="relative flex flex-col gap-6">
             {/* Timeline */}
-            <div className="pointer-events-none absolute left-4 top-4 bottom-4 w-px -translate-x-1/2 bg-linear-to-b from-transparent via-line-tertiary to-transparent" />
+            <div className="pointer-events-none absolute left-4 top-4 bottom-4 w-px -translate-x-1/2 overflow-hidden bg-line-tertiary">
+              <div className="absolute inset-x-0 -top-full h-full animate-timeline bg-linear-to-b from-transparent via-brand-surface/60 to-transparent" />
+            </div>
 
             <li className="relative flex items-center gap-4">
               <div className="relative z-10 flex size-8 shrink-0 items-center justify-center rounded-full border border-line-tertiary bg-surface-primary">

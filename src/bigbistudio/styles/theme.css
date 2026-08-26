@@ -317,3 +317,17 @@
 .carousel-fade-both::after {
   opacity: 1;
 }
+
+@keyframes timeline {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(200%);
+  }
+}
+
+.animate-timeline {
+  animation: timeline 2s linear infinite;
+}
