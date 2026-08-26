@@ -18,10 +18,10 @@ export function EyebrowIcon() {
           >
             <stop
               offset="0"
-              stopColor="rgb(208, 214, 224)"
+              stopColor="rgb(230 231 255)"
               stopOpacity="1"
             ></stop>
-            <stop offset="1" stopColor="rgb(84, 84, 84)" stopOpacity="1"></stop>
+            <stop offset="1" stopColor="rgb(166 167 200)" stopOpacity="1"></stop>
           </linearGradient>
         </defs>
         <path
