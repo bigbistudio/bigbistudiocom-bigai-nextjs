@@ -27,13 +27,16 @@ export function HeroMainSection({
           <ButtonCtaGroup buttons={buttons} />
         </div>
       </div>
-      <Image
-        src="/vectors/bigbi-stack-large-vector.svg"
-        alt="bigbi stack vector"
-        width={500}
-        height={400}
-        className="mx-auto"
-      />
+      <div className="relative">
+        <Image
+          src="/vectors/bigbi-stack-large-vector.svg"
+          alt="bigbi stack vector"
+          width={500}
+          height={400}
+          className="mx-auto"
+        />
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_60%,#0f1e4a_100%)]" />
+      </div>
     </section>
   )
 }
