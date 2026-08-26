@@ -10,6 +10,7 @@ import {
 } from "@/bigbistudio/sections/index"
 
 import { homePageData } from "@/bigbistudio/data/pages"
+import { featureData } from "@/bigbistudio/data/features"
 import { faqsData } from "@/bigbistudio/data/faqs"
 
 const page = homePageData
@@ -21,7 +22,10 @@ export function HomeView() {
         <HeroMainSection {...page.sections.heroMain} />
         <ProductsSection {...page.sections.products} />
         <LogosSection {...page.sections.clientLogos} />
-        <FeaturesCarouselSection {...page.sections.featuresCarousel} />
+        <FeaturesCarouselSection
+          {...page.sections.featuresCarousel}
+          carouselData={featureData}
+        />
         <ProcessGridSection {...page.sections.processGrid} />
         <OpenSourceSection {...page.sections.openSource} />
         <FAQSection
