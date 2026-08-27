@@ -22,6 +22,7 @@ export type PortableBlock =
         width?: number
         height?: number
         rounded?: number
+        marginTop?: string
     }
     | {
         _type: "list"

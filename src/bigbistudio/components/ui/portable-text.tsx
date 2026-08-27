@@ -94,13 +94,14 @@ export function PortableText({ blocks }: PortableTextProps) {
 
           case "image":
             return (
-              <div key={index} className="flex flex-col gap-4 my-6">
+              <div key={index} className="flex flex-col gap-4" style={{ marginTop: block.marginTop ?? 16 + `px` }}>
                 <Image
                   src={block.src}
                   alt={block.alt ?? ""}
                   width={block.width ?? 680}
                   height={block.height ?? 350}
                   style={{ borderRadius: block.rounded ?? 0 + `px` }}
+                  className="border border-line-tertiary"
                 />
                 {block.alt && (
                   <figcaption className="text-small text-ink-tertiary text-center italic">
