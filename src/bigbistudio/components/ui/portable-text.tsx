@@ -17,6 +17,7 @@ type PortableTextProps = {
 // Custom components mapping to unwrap paragraphs and prevent hydration/nesting errors
 const markdownComponents: Partial<Components> = {
   p: ({ children }) => <>{children}</>,
+  strong: ({ children }) => <strong className="font-semibold text-ink-primary">{children}</strong>,
 }
 
 export function PortableText({ blocks }: PortableTextProps) {
@@ -31,7 +32,7 @@ export function PortableText({ blocks }: PortableTextProps) {
                 className="flex items-center px-1 gap-1.5 text-sm text-ink-tertiary"
                 style={{ marginTop: block.marginTop ?? 16 + `px` }}
               >
-                <EyebrowIcon />{" "}
+                <EyebrowIcon />
                 <ReactMarkdown components={markdownComponents}>
                   {block.text}
                 </ReactMarkdown>
