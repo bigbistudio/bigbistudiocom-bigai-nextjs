@@ -1,10 +1,12 @@
 // External
 import Link from "next/link"
+import { Presentation } from "lucide-react"
 
 // Internal
 import { PortableText } from "@/bigbistudio/components/ui"
 import { Button } from "@/components/ui/button"
 import { bigbiStyles } from "@/bigbistudio/lib/bigbistyles"
+import { FramerIcon, GithubIcon } from "@/bigbistudio/components/icons"
 
 // Types
 import type { Product } from "@/bigbistudio/types/product.types"
@@ -16,6 +18,8 @@ type ProductDetailContentSectionProps = {
 export async function ProductDetailContentSection({
   currentProduct,
 }: ProductDetailContentSectionProps) {
+  const { meta, content } = currentProduct
+
   return (
     <section
       className="relative container flex flex-col-reverse lg:flex-row justify-between lg:gap-6"
@@ -23,7 +27,7 @@ export async function ProductDetailContentSection({
     >
       <div className="prose prose-invert flex flex-col mb-10 max-w-180">
         <div className="bg-surface-secondary border border-line-primary p-6 lg:my-6 rounded-2xl">
-          <PortableText blocks={currentProduct.content} />
+          <PortableText blocks={content} />
         </div>
       </div>
       <div className="lg:sticky lg:top-24 my-6 lg:mt-6 flex flex-col gap-4 p-6 rounded-xl bg-surface-secondary border border-line-translucent w-full lg:w-80 h-fit">
@@ -32,14 +36,33 @@ export async function ProductDetailContentSection({
           variant="secondary"
           className={bigbiStyles.button.secondary}
         >
-          <Link href="#">View Demo</Link>
+          {meta.demoLink && (
+            <Link href={meta.demoLink} target="_blank">
+              <Presentation />
+              <span>View Demo</span>
+            </Link>
+          )}
         </Button>
         <Button
           asChild
           variant="default"
           className={bigbiStyles.button.primary}
         >
-          <Link href="#">Github Repository</Link>
+          {meta.templateLink && (
+            <Link href={meta.templateLink} target="_blank">
+              {meta.isNext ? (
+                <>
+                  <GithubIcon />
+                  <span>Github Repository</span>
+                </>
+              ) : (
+                <>
+                  <FramerIcon />
+                  <span>Framer Marketplace</span>
+                </>
+              )}
+            </Link>
+          )}
         </Button>
       </div>
     </section>
