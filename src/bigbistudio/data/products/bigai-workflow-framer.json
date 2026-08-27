@@ -8,7 +8,9 @@
         "title": "bigA.i Workflow Framer Template",
         "subtitle": "A workflow-first website system for AI products, automation platforms, and modern SaaS.",
         "logo": "/tech/framer-icon.svg",
-        "cardIcon": "SplinePointer"
+        "cardIcon": "SplinePointer",
+        "demoLink": "https://bigai-workflow.framer.website/",
+        "templateLink": "https://www.framer.com/marketplace/templates/biga-i-workflow-2-0/"
     },
     "content": [
         {

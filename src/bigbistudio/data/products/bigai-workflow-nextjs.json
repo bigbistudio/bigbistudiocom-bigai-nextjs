@@ -8,7 +8,9 @@
         "title": "bigA.i Workflow Next.js Template",
         "subtitle": "An open-source Next.js website system for AI startups, SaaS products, and automation platforms.",
         "logo": "/tech/nextjs-icon.svg",
-        "cardIcon": "MessageCircleCode"
+        "cardIcon": "MessageCircleCode",
+        "demoLink": "https://bigai-workflow-nextjs-demo.bigbistudio.com/",
+        "templateLink": "https://github.com/bigbistudio/bigai-workflow-nextjs/tree/main"
     },
     "content": [
         {
