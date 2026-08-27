@@ -101,7 +101,6 @@ export function PortableText({ blocks }: PortableTextProps) {
                   width={block.width ?? 680}
                   height={block.height ?? 350}
                   style={{ borderRadius: block.rounded ?? 0 + `px` }}
-                  className="border border-line-tertiary"
                 />
                 {block.alt && (
                   <figcaption className="text-small text-ink-tertiary text-center italic">
