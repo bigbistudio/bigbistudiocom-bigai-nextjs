@@ -38,7 +38,7 @@ export function OpenSourceSection({
             </div>
 
             <li className="relative flex items-center gap-4">
-              <div className="relative z-10 flex size-8 shrink-0 items-center justify-center rounded-full border border-line-tertiary bg-surface-primary">
+              <div className="relative z-10 flex size-8 shrink-0 items-center justify-center rounded-full border border-line-tertiary bg-surface-tertiary">
                 <Wrench
                   size={16}
                   strokeWidth={1.5}
@@ -55,7 +55,7 @@ export function OpenSourceSection({
             </li>
 
             <li className="relative flex items-center gap-4">
-              <div className="relative z-10 flex size-8 shrink-0 items-center justify-center rounded-full border border-line-tertiary bg-surface-primary">
+              <div className="relative z-10 flex size-8 shrink-0 items-center justify-center rounded-full border border-line-tertiary bg-surface-tertiary">
                 <Share2
                   size={16}
                   strokeWidth={1.5}
@@ -72,7 +72,7 @@ export function OpenSourceSection({
             </li>
 
             <li className="relative flex items-center gap-4">
-              <div className="relative z-10 flex size-8 shrink-0 items-center justify-center rounded-full border border-line-tertiary bg-surface-primary">
+              <div className="relative z-10 flex size-8 shrink-0 items-center justify-center rounded-full border border-line-tertiary bg-surface-tertiary">
                 <Lightbulb
                   size={16}
                   strokeWidth={1.5}
@@ -89,7 +89,7 @@ export function OpenSourceSection({
             </li>
 
             <li className="relative flex items-center gap-4">
-              <div className="relative z-10 flex size-8 shrink-0 items-center justify-center rounded-full border border-line-tertiary bg-surface-primary">
+              <div className="relative z-10 flex size-8 shrink-0 items-center justify-center rounded-full border border-line-tertiary bg-surface-tertiary">
                 <GitPullRequest
                   size={16}
                   strokeWidth={1.5}
@@ -106,7 +106,7 @@ export function OpenSourceSection({
             </li>
 
             <li className="relative flex items-center gap-4">
-              <div className="relative z-10 flex size-8 shrink-0 items-center justify-center rounded-full border border-line-tertiary bg-surface-primary">
+              <div className="relative z-10 flex size-8 shrink-0 items-center justify-center rounded-full border border-line-tertiary bg-surface-tertiary">
                 <Users
                   size={16}
                   strokeWidth={1.5}
