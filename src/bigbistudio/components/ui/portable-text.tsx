@@ -1,5 +1,6 @@
 // External
 import Image from "next/image"
+import ReactMarkdown from "react-markdown"
 
 // Internal
 import { cn } from "@/bigbistudio/utils/shadcn-utils"
@@ -7,9 +8,15 @@ import { EyebrowIcon } from "@/bigbistudio/components/icons"
 
 // Types
 import type { PortableBlock } from "@/bigbistudio/types/article.types"
+import type { Components } from "react-markdown"
 
 type PortableTextProps = {
   blocks: PortableBlock[]
+}
+
+// Custom components mapping to unwrap paragraphs and prevent hydration/nesting errors
+const markdownComponents: Partial<Components> = {
+  p: ({ children }) => <>{children}</>,
 }
 
 export function PortableText({ blocks }: PortableTextProps) {
@@ -24,7 +31,10 @@ export function PortableText({ blocks }: PortableTextProps) {
                 className="flex items-center px-1 gap-1.5 text-sm text-ink-tertiary"
                 style={{ marginTop: block.marginTop ?? 16 + `px` }}
               >
-                <EyebrowIcon /> {block.text}
+                <EyebrowIcon />{" "}
+                <ReactMarkdown components={markdownComponents}>
+                  {block.text}
+                </ReactMarkdown>
               </span>
             )
 
@@ -37,7 +47,9 @@ export function PortableText({ blocks }: PortableTextProps) {
                     className="text-h1-article lg:whitespace-pre-line"
                     style={{ marginTop: block.marginTop ?? 40 + `px` }}
                   >
-                    {block.text}
+                    <ReactMarkdown components={markdownComponents}>
+                      {block.text}
+                    </ReactMarkdown>
                   </h1>
                 )
               case 2:
@@ -47,7 +59,9 @@ export function PortableText({ blocks }: PortableTextProps) {
                     className="text-h2-article lg:whitespace-pre-line"
                     style={{ marginTop: block.marginTop ?? 40 + `px` }}
                   >
-                    {block.text}
+                    <ReactMarkdown components={markdownComponents}>
+                      {block.text}
+                    </ReactMarkdown>
                   </h2>
                 )
               case 3:
@@ -57,7 +71,9 @@ export function PortableText({ blocks }: PortableTextProps) {
                     className="lg:whitespace-pre-line"
                     style={{ marginTop: block.marginTop ?? 40 + `px` }}
                   >
-                    {block.text}
+                    <ReactMarkdown components={markdownComponents}>
+                      {block.text}
+                    </ReactMarkdown>
                   </h3>
                 )
             }
@@ -69,7 +85,9 @@ export function PortableText({ blocks }: PortableTextProps) {
                 className="text-body-article text-ink-secondary whitespace-pre-line"
                 style={{ marginTop: block.marginTop ?? 16 + `px` }}
               >
-                {block.text}
+                <ReactMarkdown components={markdownComponents}>
+                  {block.text}
+                </ReactMarkdown>
               </p>
             )
 
@@ -100,7 +118,9 @@ export function PortableText({ blocks }: PortableTextProps) {
               >
                 {block.items.map((item, _index) => (
                   <li key={_index} className="mt-1">
-                    {item}
+                    <ReactMarkdown components={markdownComponents}>
+                      {item}
+                    </ReactMarkdown>
                   </li>
                 ))}
               </ul>
@@ -111,7 +131,9 @@ export function PortableText({ blocks }: PortableTextProps) {
               >
                 {block.items.map((item, _index) => (
                   <li key={_index} className="mt-1">
-                    {item}
+                    <ReactMarkdown components={markdownComponents}>
+                      {item}
+                    </ReactMarkdown>
                   </li>
                 ))}
               </ol>
@@ -144,10 +166,14 @@ export function PortableText({ blocks }: PortableTextProps) {
                           : "text-[2rem] leading-8 font-semibold text-ink-primary",
                       )}
                     >
-                      {block.aboveText}
+                      <ReactMarkdown components={markdownComponents}>
+                        {block.aboveText}
+                      </ReactMarkdown>
                     </span>
                     <span className="text-body text-ink-tertiary">
-                      {block.belowText}
+                      <ReactMarkdown components={markdownComponents}>
+                        {block.belowText}
+                      </ReactMarkdown>
                     </span>
                   </div>
                 ))}
