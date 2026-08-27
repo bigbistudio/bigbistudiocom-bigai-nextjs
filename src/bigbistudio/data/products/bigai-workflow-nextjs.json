@@ -6,96 +6,72 @@
         "status": "published",
         "publishedAt": "2026-05-29T07:11:00Z",
         "title": "bigA.i Workflow Next.js Template",
-        "logo": "/case-studies/futurelogix-logo.svg",
+        "subtitle": "An open-source Next.js website system for AI startups, SaaS products, and automation platforms.",
+        "logo": "/tech/nextjs-icon.svg",
         "cardIcon": "MessageCircleCode"
     },
     "content": [
         {
             "_type": "heading",
             "level": 2,
-            "text": "Overview"
+            "text": "Overview",
+            "marginTop": "0"
         },
         {
             "_type": "paragraph",
-            "text": "FutureLogix had already implemented automation across key parts of their operations, but found that traditional systems lacked flexibility and adaptability."
-        },
-        {
-            "_type": "paragraph",
-            "text": "As their business evolved, workflows became more complex and required a more intelligent approach to decision-making."
+            "text": "bigA.i Workflow helps teams explain complex products through clear workflows, structured content, and reusable page sections. Designed in Framer, it provides a flexible visual foundation for launching and customizing product websites without starting from scratch."
         },
         {
             "_type": "heading",
             "level": 2,
-            "text": "The Challenge"
-        },
-        {
-            "_type": "paragraph",
-            "text": "Rule-based automation systems proved too rigid for dynamic environments."
-        },
-        {
-            "_type": "paragraph",
-            "text": "Workflows could not adapt to changing conditions, and updates required manual adjustments. This limited the team's ability to scale operations efficiently and respond to new challenges."
-        },
-        {
-            "_type": "paragraph",
-            "text": "The need for more adaptive, intelligent systems became clear."
-        },
-        {
-            "_type": "heading",
-            "level": 2,
-            "text": "The Approach"
-        },
-        {
-            "_type": "paragraph",
-            "text": "FutureLogix implemented bigA.i to introduce AI-driven decision-making into their workflows."
-        },
-        {
-            "_type": "image",
-            "src": "/case-studies/futurelogix-the-approach.png",
-            "alt": "The approach of FutureLogix"
-        },
-        {
-            "_type": "paragraph",
-            "text": "Instead of relying on static rules, workflows were designed to respond dynamically based on real-time data. AI agents handled complex logic and continuously improved performance over time."
-        },
-        {
-            "_type": "paragraph",
-            "text": "This shift enabled the team to move beyond automation and toward true operational intelligence."
-        },
-        {
-            "_type": "heading",
-            "level": 2,
-            "text": "The Impact"
-        },
-        {
-            "_type": "paragraph",
-            "text": "Workflows became more flexible, adaptive, and efficient."
-        },
-        {
-            "_type": "paragraph",
-            "text": "The team was able to respond faster to changes and optimize processes without constant manual intervention."
+            "text": "Built For"
         },
         {
             "_type": "list",
             "style": "bullet",
             "items": [
-                "More adaptive and intelligent workflows",
-                "Improved decision-making speed",
-                "Reduced manual adjustments"
+                "AI startups and SaaS products",
+                "AI workflows and automation platforms",
+                "AI agents and internal tools",
+                "Developer tools and APIs",
+                "B2B and technology products"
             ]
         },
         {
             "_type": "heading",
             "level": 2,
-            "text": "Conclusion"
+            "text": "Highlights"
+        },
+        {
+            "_type": "list",
+            "style": "bullet",
+            "items": [
+                "Workflow-first page structure",
+                "Modular and reusable sections",
+                "Product-focused content hierarchy",
+                "Semantic design system",
+                "Responsive layouts",
+                "Conversion-focused pages",
+                "Modern visual direction",
+                "Built for Framer customization"
+            ]
+        },
+        {
+            "_type": "heading",
+            "level": 2,
+            "text": "What's Included"
         },
         {
             "_type": "paragraph",
-            "text": "FutureLogix redefined how their operations functioned by moving from static automation to intelligent systems."
+            "text": "A complete product website foundation covering **Home, Features, Case Studies, Process, Pricing, About, Blog, Contact, Legal, and supporting pages**."
         },
         {
             "_type": "paragraph",
-            "text": "bigA.i enabled a new level of flexibility and performance across their workflows."
+            "text": "Customize the visual system, content, layouts, and sections directly in Framer to adapt the foundation to your product."
+        },
+        {
+            "_type": "paragraph",
+            "text": "Designed as the visual foundation of the bigA.i system — with a matching open-source Next.js implementation."
         }
     ]
 }
