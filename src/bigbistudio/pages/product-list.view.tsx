@@ -2,6 +2,7 @@
 import {
   HeroSimpleSection,
   FeaturesCarouselSection,
+  OpenSourceSection,
 } from "@/bigbistudio/sections"
 import { ProductGrid } from "@/bigbistudio/sections/product-list/grids/product-grid"
 
@@ -29,6 +30,7 @@ export function ProductListView({ Products }: ProductListViewProps) {
           {...page.sections.featuresCarousel}
           carouselData={highlightsData}
         />
+        <OpenSourceSection {...page.sections.openSource} />
       </div>
     </main>
   )

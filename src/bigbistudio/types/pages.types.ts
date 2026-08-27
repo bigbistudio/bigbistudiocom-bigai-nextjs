@@ -179,6 +179,7 @@ export type ProductsPageConfig = {
   sections: {
     heroSimple: HeroSimpleSection
     featuresCarousel: FeaturesCarouselSection
+    openSource: OpenSourceSection
   }
 }
 

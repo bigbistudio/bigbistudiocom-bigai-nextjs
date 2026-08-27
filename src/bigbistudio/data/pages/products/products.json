@@ -8,6 +8,20 @@
             "eyebrow": "Highlights",
             "title": "Built for modern \nproduct teams",
             "subtitle": "Thoughtful systems and flexible foundations that help teams build clearer products, consistent experiences, and move from idea to production."
+        },
+        "openSource": {
+            "id": "open-source",
+            "eyebrow": "Open Source",
+            "title": "Build. Share.",
+            "buttons": [
+                {
+                    "btnType": "ghost",
+                    "btnTitle": "View on GitHub",
+                    "btnUrl": "https://github.com/bigbistudio/bigai-workflow-nextjs",
+                    "targetBlank": true,
+                    "btnIcon": "ArrowUpRight"
+                }
+            ]
         }
     }
 }
