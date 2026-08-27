@@ -46,8 +46,8 @@ export function ProductOverviewSection({
       )}
 
       <div className="flex flex-col-reverse lg:flex-row lg:justify-between gap-8 bg-surface-secondary border border-line-primary p-6 rounded-2xl min-h-100">
-        <div className="flex flex-col gap-8 xl:px-4">
-          <h3 className="text-center mt-2">AI Workflow & Automation Website System</h3>
+        <div className="flex flex-col items-center gap-8 xl:px-4 flex-1">
+          <h3 className="text-center max-w-75 lg:max-w-full lg:mt-2">AI Workflow & Automation Website System</h3>
           <div className="flex items-center justify-between w-full text-ink-tertiary border border-line-translucent px-4 py-2 rounded-full text-xs sm:text-sm">
             <div className="inline-flex items-center">
               <Image
@@ -79,7 +79,7 @@ export function ProductOverviewSection({
               <span className="hidden sm:inline-block">Next.js</span>
             </div>
           </div>
-          <ul className="relative grid grid-cols-1 lg:grid-cols-2 gap-4 xl:gap-x-12 lg:gap-y-4">
+          <ul className="relative grid grid-cols-1 lg:grid-cols-2 gap-4 xl:gap-x-12 lg:gap-y-4 w-full mt-2">
             <li className="flex items-center gap-4">
               <div className="relative flex size-10 shrink-0 items-center justify-center rounded-md bg-surface-tertiary">
                 <Workflow
