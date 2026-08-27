@@ -4,6 +4,12 @@
             "title": "Products",
             "subtitle": "We build reusable tools, website systems, and open-source foundations designed for modern teams."
         },
+        "productOverview": {
+            "id": "product-overview",
+            "eyebrow": "Product Overview",
+            "title": "bigA.i Workflow",
+            "subtitle": "A workflow-first website system designed for AI products, automation platforms, and modern SaaS."
+        },
         "featuresCarousel": {
             "eyebrow": "Highlights",
             "title": "Built for modern \nproduct teams",

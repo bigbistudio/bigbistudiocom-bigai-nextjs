@@ -95,6 +95,15 @@ export type FeaturesCarouselSection = {
   buttons: PageButton[]
 }
 
+// Product Overview
+
+export type ProductOverviewSection = {
+  id: string
+  eyebrow: string
+  title: string
+  subtitle: string
+}
+
 // Open Source
 
 export type OpenSourceSection = {
@@ -178,6 +187,7 @@ export type CaseStudiesPageConfig = {
 export type ProductsPageConfig = {
   sections: {
     heroSimple: HeroSimpleSection
+    productOverview: ProductOverviewSection
     featuresCarousel: FeaturesCarouselSection
     openSource: OpenSourceSection
   }

@@ -37,3 +37,5 @@ export { OpenSourceSection } from "./open-source/open-source.section"
 export { ProductsSection } from "./product-list/products.section"
 export { ProductDetailHeroSection } from "./product-detail/product-detail-hero.section"
 export { ProductDetailContentSection } from "./product-detail/product-detail-content.section"
+
+export { ProductOverviewSection } from "./product-overview/product-overview.section"
