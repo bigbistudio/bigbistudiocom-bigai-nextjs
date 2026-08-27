@@ -1,10 +1,9 @@
 // External
 import Image from "next/image"
-import { GitPullRequest, Lightbulb, Share2, Users, Wrench } from "lucide-react"
+import { Workflow, LayoutTemplate, Stone, Layers, Wind, FileCodeCorner } from "lucide-react"
 
 // Internal
 import { EyebrowIcon } from "@/bigbistudio/components/icons"
-import { UIGithubInsight } from "@/bigbistudio/components/graphics/ui-github-insight"
 import { ButtonCtaGroup } from "@/bigbistudio/components/ui"
 
 // Types
@@ -39,96 +38,77 @@ export function ProductOverviewSection({
       )}
 
       <div className="flex flex-col-reverse lg:flex-row lg:justify-between gap-8 bg-surface-secondary border border-line-primary p-6 rounded-2xl min-h-100">
-        <div className="flex items-center lg:px-8 xl:px-16">
-          <ul className="relative flex flex-col gap-6">
-            {/* Timeline */}
-            <div className="pointer-events-none absolute left-4 top-4 bottom-4 w-px -translate-x-1/2 overflow-hidden bg-line-tertiary">
-              <div className="absolute inset-x-0 -top-full h-full animate-timeline bg-linear-to-b from-transparent via-brand-surface/60 to-transparent" />
-            </div>
-
-            <li className="relative flex items-center gap-4">
-              <div className="relative z-10 flex size-8 shrink-0 items-center justify-center rounded-full border border-line-tertiary bg-surface-primary">
-                <Wrench
-                  size={16}
+        <div className="flex items-center lg:px-4">
+          <ul className="relative grid grid-cols-1 lg:grid-cols-2 gap-4 xl:gap-x-12 lg:gap-y-6">
+            <li className="flex items-center gap-4">
+              <div className="relative flex size-10 shrink-0 items-center justify-center rounded-md bg-surface-tertiary">
+                <Workflow
+                  size={18}
                   strokeWidth={1.5}
                   className="text-ink-tertiary"
                 />
               </div>
-
-              <div className="flex flex-col">
-                <h3 className="text-body-large">Build</h3>
-                <p className="text-body text-ink-tertiary">
-                  Create · experiment · extend.
-                </p>
-              </div>
+              <h3 className="font-normal text-body-large">
+                Worflow-first structure
+              </h3>
             </li>
-
-            <li className="relative flex items-center gap-4">
-              <div className="relative z-10 flex size-8 shrink-0 items-center justify-center rounded-full border border-line-tertiary bg-surface-primary">
-                <Share2
-                  size={16}
+            <li className="flex items-center gap-4">
+              <div className="relative flex size-10 shrink-0 items-center justify-center rounded-md bg-surface-tertiary">
+                <Stone
+                  size={18}
                   strokeWidth={1.5}
                   className="text-ink-tertiary"
                 />
               </div>
-
-              <div className="flex flex-col">
-                <h3 className="text-body-large">Share</h3>
-                <p className="text-body text-ink-tertiary">
-                  Share ideas · work · experiments.
-                </p>
-              </div>
+              <h3 className="font-normal text-body-large">
+                Framer & Next.js editions
+              </h3>
             </li>
-
-            <li className="relative flex items-center gap-4">
-              <div className="relative z-10 flex size-8 shrink-0 items-center justify-center rounded-full border border-line-tertiary bg-surface-primary">
-                <Lightbulb
-                  size={16}
+            <li className="flex items-center gap-4">
+              <div className="relative flex size-10 shrink-0 items-center justify-center rounded-md bg-surface-tertiary">
+                <LayoutTemplate
+                  size={18}
                   strokeWidth={1.5}
                   className="text-ink-tertiary"
                 />
               </div>
-
-              <div className="flex flex-col">
-                <h3 className="text-body-large">Learn</h3>
-                <p className="text-body text-ink-tertiary">
-                  Discover · explore · adapt.
-                </p>
-              </div>
+              <h3 className="font-normal text-body-large">Reusable sections</h3>
             </li>
-
-            <li className="relative flex items-center gap-4">
-              <div className="relative z-10 flex size-8 shrink-0 items-center justify-center rounded-full border border-line-tertiary bg-surface-primary">
-                <GitPullRequest
-                  size={16}
+            <li className="flex items-center gap-4">
+              <div className="relative flex size-10 shrink-0 items-center justify-center rounded-md bg-surface-tertiary">
+                <Wind
+                  size={18}
                   strokeWidth={1.5}
                   className="text-ink-tertiary"
                 />
               </div>
-
-              <div className="flex flex-col">
-                <h3 className="text-body-large">Contribute</h3>
-                <p className="text-body text-ink-tertiary">
-                  Improve · refine · share.
-                </p>
-              </div>
+              <h3 className="font-normal text-body-large">
+                TypeScript & TailwindCSS
+              </h3>
             </li>
-
-            <li className="relative flex items-center gap-4">
-              <div className="relative z-10 flex size-8 shrink-0 items-center justify-center rounded-full border border-line-tertiary bg-surface-primary">
-                <Users
-                  size={16}
+            <li className="flex items-center gap-4">
+              <div className="relative flex size-10 shrink-0 items-center justify-center rounded-md bg-surface-tertiary">
+                <Layers
+                  size={18}
                   strokeWidth={1.5}
                   className="text-ink-tertiary"
                 />
               </div>
-
-              <div className="flex flex-col">
-                <h3 className="text-body-large">Connect</h3>
-                <p className="text-body text-ink-tertiary">
-                  Meet · engage · collaborate.
-                </p>
+              <h3 className="font-normal text-body-large">
+                Shared design system
+              </h3>
+            </li>
+            <li className="flex items-center gap-4">
+              <div className="relative flex size-10 shrink-0 items-center justify-center rounded-md bg-surface-tertiary">
+                <FileCodeCorner
+                  size={18}
+                  strokeWidth={1.5}
+                  className="text-ink-tertiary"
+                />
               </div>
+              <h3 className="font-normal text-body-large">
+                Open source foundation
+              </h3>
             </li>
           </ul>
         </div>
@@ -138,7 +118,7 @@ export function ProductOverviewSection({
           alt="bigA.i Workflow Screenshot"
           width={480}
           height={360}
-          className="border border-line-tertiary rounded-2xl"
+          className="border border-line-tertiary rounded-2xl opacity-80"
         />
       </div>
 
