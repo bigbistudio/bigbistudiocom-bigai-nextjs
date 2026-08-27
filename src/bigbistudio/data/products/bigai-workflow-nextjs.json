@@ -17,11 +17,11 @@
             "_type": "heading",
             "level": 2,
             "text": "Overview",
-            "marginTop": "0"
+            "marginTop": 0
         },
         {
             "_type": "paragraph",
-            "text": "bigA.i Workflow helps teams explain complex products through clear workflows, structured content, and reusable page sections. Designed in Framer, it provides a flexible visual foundation for launching and customizing product websites without starting from scratch."
+            "text": "**bigA.i Workflow Next.js** brings the workflow-first design approach into a production-ready development environment. Built with **Next.js** and **TypeScript**, it provides reusable sections, structured JSON content, shared design tokens, and a scalable project architecture for building and customizing modern product websites."
         },
         {
             "_type": "heading",
@@ -33,10 +33,10 @@
             "style": "bullet",
             "items": [
                 "AI startups and SaaS products",
-                "AI workflows and automation platforms",
+                "Automation and workflow platforms",
                 "AI agents and internal tools",
                 "Developer tools and APIs",
-                "B2B and technology products"
+                "B2B technology products"
             ]
         },
         {
@@ -48,32 +48,27 @@
             "_type": "list",
             "style": "bullet",
             "items": [
-                "Workflow-first page structure",
-                "Modular and reusable sections",
-                "Product-focused content hierarchy",
-                "Semantic design system",
-                "Responsive layouts",
-                "Conversion-focused pages",
-                "Modern visual direction",
-                "Built for Framer customization"
+                "Next.js + TypeScript",
+                "Reusable sections and components",
+                "JSON-based content structure",
+                "App Router architecture",
+                "Shared design tokens",
+                "Blog and case studies",
+                "Pricing and contact pages",
+                "SEO-ready metadata",
+                "Responsive UI",
+                "Tailwind CSS + shadcn/ui",
+                "Production-ready structure"
             ]
         },
         {
             "_type": "heading",
             "level": 2,
-            "text": "What's Included"
+            "text": "Built To Customize"
         },
         {
             "_type": "paragraph",
-            "text": "A complete product website foundation covering **Home, Features, Case Studies, Process, Pricing, About, Blog, Contact, Legal, and supporting pages**."
-        },
-        {
-            "_type": "paragraph",
-            "text": "Customize the visual system, content, layouts, and sections directly in Framer to adapt the foundation to your product."
-        },
-        {
-            "_type": "paragraph",
-            "text": "Designed as the visual foundation of the bigA.i system — with a matching open-source Next.js implementation."
+            "text": "Site content, navigation, pricing, blog posts, case studies, design tokens, pages, and reusable sections are organized so they can be customized without rebuilding the underlying architecture."
         }
     ]
 }
