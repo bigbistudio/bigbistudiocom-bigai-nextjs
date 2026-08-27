@@ -12,13 +12,30 @@
     },
     "content": [
         {
+            "_type": "image",
+            "src": "/products/bigai-workflow-framer/bigai-thumb-01.png",
+            "rounded": 16,
+            "marginTop": 0
+        },
+        {
+            "_type": "image",
+            "src": "/products/bigai-workflow-framer/bigai-thumb-02.png",
+            "rounded": 16
+        },
+        {
+            "_type": "image",
+            "src": "/products/bigai-workflow-framer/bigai-thumb-03.png",
+            "rounded": 16
+        },
+        {
+            "_type": "image",
+            "src": "/products/bigai-workflow-framer/bigai-thumb-04.png",
+            "rounded": 16
+        },
+        {
             "_type": "heading",
             "level": 2,
             "text": "Overview"
-        },
-        {
-            "_type": "paragraph",
-            "text": "A workflow-first website system for AI products, automation platforms, and modern SaaS."
         },
         {
             "_type": "paragraph",
@@ -66,11 +83,15 @@
         },
         {
             "_type": "paragraph",
-            "text": "A complete product website foundation covering Home, Features, Case Studies, Process, Pricing, About, Blog, Contact, Legal, and supporting pages."
+            "text": "A complete product website foundation covering **Home, Features, Case Studies, Process, Pricing, About, Blog, Contact, Legal, and supporting pages**."
         },
         {
             "_type": "paragraph",
             "text": "Customize the visual system, content, layouts, and sections directly in Framer to adapt the foundation to your product."
+        },
+        {
+            "_type": "paragraph",
+            "text": "Designed as the visual foundation of the bigA.i system — with a matching open-source Next.js implementation."
         }
     ]
 }
