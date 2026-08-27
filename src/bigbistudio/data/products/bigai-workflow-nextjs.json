@@ -14,10 +14,15 @@
     },
     "content": [
         {
+            "_type": "image",
+            "src": "/products/bigai-workflow-nextjs/bigai-workflow-nextjs-screenshot.png",
+            "rounded": 16,
+            "marginTop": 0
+        },
+        {
             "_type": "heading",
             "level": 2,
-            "text": "Overview",
-            "marginTop": 0
+            "text": "Overview"
         },
         {
             "_type": "paragraph",
