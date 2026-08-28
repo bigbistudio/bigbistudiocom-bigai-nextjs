@@ -104,6 +104,14 @@ export type ProductOverviewSection = {
   subtitle: string
 }
 
+// Product List
+
+export type ProductListSection = {
+  id: string
+  eyebrow: string
+  title: string
+}
+
 // Open Source
 
 export type OpenSourceSection = {
@@ -188,6 +196,7 @@ export type ProductsPageConfig = {
   sections: {
     heroSimple: HeroSimpleSection
     productOverview: ProductOverviewSection
+    productList: ProductListSection
     featuresCarousel: FeaturesCarouselSection
     openSource: OpenSourceSection
   }
