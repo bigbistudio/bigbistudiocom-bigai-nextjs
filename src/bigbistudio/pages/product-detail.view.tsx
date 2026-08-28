@@ -18,7 +18,7 @@ export async function ProductDetailView({ currentProduct }: ProductDetailViewPro
   const relatedContent = {
     id: "related-products",
     eyebrow: "Related Products",
-    title: "Explore More",
+    title: "Explore More.",
     productSlugs: await getRelatedProducts(currentProduct.meta.slug),
   }
 
