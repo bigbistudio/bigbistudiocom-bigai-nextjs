@@ -23,13 +23,13 @@
         "featuresCarousel": {
             "id": "what-we-build",
             "eyebrow": "Capabilities",
-            "title": "What We Build",
+            "title": "What We Build.",
             "subtitle": "From interfaces to infrastructure, we create experiences and systems built for what comes next."
         },
         "processGrid": {
             "id": "how-we-build",
             "eyebrow": "Process",
-            "title": "How We Build",
+            "title": "How We Build.",
             "subtitle": "We connect design, systems, and development instead of treating them as separate steps."
         },
         "openSource": {
@@ -43,24 +43,6 @@
                     "btnUrl": "https://github.com/bigbistudio/bigai-workflow-nextjs",
                     "targetBlank": true,
                     "btnIcon": "ArrowUpRight"
-                }
-            ]
-        },
-        "pricing": {
-            "eyebrow": "Pricing",
-            "title": "Scale as You Grow",
-            "buttons": [
-                {
-                    "btnType": "ghost",
-                    "btnTitle": "Pricing Q&A",
-                    "btnUrl": "/pricing#faqs",
-                    "btnIcon": "ArrowRight"
-                },
-                {
-                    "btnType": "ghost",
-                    "btnTitle": "Compare Plans",
-                    "btnUrl": "/pricing#compare-plans",
-                    "btnIcon": "ArrowRight"
                 }
             ]
         },
@@ -82,30 +64,9 @@
                 }
             ]
         },
-        "caseStudies": {
-            "id": "case-studies",
-            "eyebrow": "Case Studies",
-            "title": "Workflow showcases",
-            "subtitle": "From simple automations to complex systems, see what teams are building with bigA.i.",
-            "caseStudySlugs": [
-                "futurelogix",
-                "vector-flow"
-            ],
-            "buttons": [
-                {
-                    "btnType": "ghost",
-                    "btnTitle": "See More",
-                    "btnUrl": "/case-studies",
-                    "btnIcon": "ArrowRight"
-                }
-            ]
-        },
-        "testimonials": {
-            "title": "Why high-growth scaleups choose bigA.i"
-        },
         "faqGeneral": {
             "eyebrow": "FAQs",
-            "title": "Questions \nand answers"
+            "title": "Questions \nand answers."
         },
         "blog": {
             "id": "blog-section",
