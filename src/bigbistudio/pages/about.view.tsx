@@ -16,7 +16,7 @@ export function AboutView() {
       <div className="flex flex-col justify-center border border-line-translucent divide-y divide-line-translucent container px-0">
         <HeroSimpleSection {...page.sections.heroSimple} />
         <section className="container flex justify-center py-20">
-          <div className="prose prose-invert flex flex-col text-left [&_strong]:text-brand-surface xl:max-w-210">
+          <div className="prose prose-invert flex flex-col text-left xl:max-w-210 [&_strong]:text-brand-surface [&_h2]:flex [&_h2]:items-center [&_img]:w-6 [&_img]:mx-2 [&_img]:rounded-full">
             <PortableText blocks={aboutContent} />
           </div>
         </section>
