@@ -3,37 +3,42 @@
     "title": "bigbistudio.com — Design, Engineering & Digital Products",
     "description": "We design and build digital products, websites, commerce experiences, and scalable UI systems."
   },
-
   "products": {
     "title": "bigbistudio.com - Products and Tools for Modern Digital Experiences",
     "description": "Explore bigbistudio products built to help teams design, build, and launch modern digital experiences."
   },
-
   "about": {
     "title": "bigbistudio.com - Design & Engineering Studio",
     "description": "A design and engineering studio building thoughtful digital products, websites, and scalable systems."
   },
-
   "contact": {
     "title": "bigbistudio.com - Start a Project Together",
     "description": "Get in touch with bigbi studio for digital product, website, and commerce projects."
   },
-
   "privacyPolicy": {
     "title": "bigbistudio.com - Privacy Policy",
     "description": "Learn how we collect, use, store, and protect your personal information when you use our website and services."
   },
-
   "termsOfService": {
     "title": "bigbistudio.com - Terms of Service",
     "description": "Read the terms and conditions that govern your access to and use of the bigA.i website and products."
   },
-
   "cookiePolicy": {
     "title": "bigbistudio.com - Cookie Policy",
     "description": "Learn how we use cookies and similar technologies to improve your browsing experience and analyze website usage."
   },
-
+  "comingSoon": {
+    "title": "Coming Soon",
+    "description": "We're working on something exciting."
+  },
+  "features": {
+    "title": "Features",
+    "description": "Explore the features included in the template, from reusable UI components and SEO optimization to responsive layouts and developer-friendly architecture."
+  },
+  "caseStudies": {
+    "title": "Case Studies",
+    "description": "Discover real-world examples and showcase projects built with the AI Workflow & Automation Website Template."
+  },
   "notFound": {
     "title": "404 - Page Not Found",
     "description": "The page you're looking for couldn't be found. Return to the homepage or explore other sections of our website."
