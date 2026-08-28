@@ -40,8 +40,8 @@ export function ProductCard({ product }: ProductCardProps) {
       <div className="w-12 h-12 rounded-md bg-surface-tertiary">
         <Image src={meta.logo} width={48} height={48} alt={meta.title} />
       </div>
-      <div className="flex flex-col gap-4 lg:max-w-[80%]">
-        <h2 className="text-extra-large font-normal">{meta.title}</h2>
+      <div className="flex flex-col gap-4 xl:max-w-[80%]">
+        <h3 className="text-extra-large font-normal">{meta.title}</h3>
       </div>
     </Link>
   )
