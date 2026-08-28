@@ -1,8 +1,13 @@
 // Internal
-import { HeroSimpleSection, LogosSection } from "@/bigbistudio/sections"
+import {
+  HeroSimpleSection,
+  LogosSection,
+  FAQSection,
+} from "@/bigbistudio/sections"
 import { PortableText } from "@/bigbistudio/components/ui"
 
 import { aboutPageData } from "@/bigbistudio/data/pages"
+import { faqsData } from "@/bigbistudio/data/faqs"
 
 // Types
 import type { PortableBlock } from "@/bigbistudio/types/article.types"
@@ -21,6 +26,10 @@ export function AboutView() {
           </div>
         </section>
         <LogosSection {...page.sections.clientLogos} />
+        <FAQSection
+          {...page.sections.faqGeneral}
+          questions={faqsData.faqGeneral}
+        />
       </div>
     </main>
   )

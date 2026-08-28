@@ -103,6 +103,10 @@
         ],
         "clientLogos": {
             "title": "Tools we trust."
+        },
+        "faqGeneral": {
+            "eyebrow": "FAQs",
+            "title": "Questions \nand answers."
         }
     }
 }

@@ -175,6 +175,7 @@ export type AboutPageConfig = {
     clientLogos: ClientLogosSection
     testimonials: TestimonialsSection
     blog: BlogSection
+    faqGeneral: FAQSection
   }
 }
 
