@@ -24,8 +24,8 @@ export async function generateMetadata({
   }
 
   return createMetadata({
-    title: currentProduct.meta.title,
-    description: currentProduct.meta.title,
+    title: "bigbistudio.com - " + currentProduct.meta.title,
+    description: currentProduct.meta.subtitle,
   })
 }
 
