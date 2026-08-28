@@ -60,3 +60,11 @@ export async function getProductsBySlugs(
         meta,
     }))
 }
+
+/** @returns Slugs of related products excluding the current product */
+export async function getRelatedProducts(currentSlug: string): Promise<string[]> {
+    const products = await getAllProducts()
+    return products
+    .filter((product) => product.meta.slug !== currentSlug)
+    .map((product) => product.meta.slug)
+}
