@@ -49,9 +49,11 @@ export async function ProductsSection({
         </div>
       </div>
       <ProductGrid Products={selectedProducts} />
-      <div className="flex justify-center gap-2.5">
-        <ButtonCtaGroup buttons={buttons} />
-      </div>
+      {buttons && (
+        <div className="flex justify-center gap-2.5">
+          <ButtonCtaGroup buttons={buttons} />
+        </div>
+      )}
     </section>
   )
 }
