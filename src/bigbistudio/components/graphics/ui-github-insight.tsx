@@ -7,6 +7,7 @@ import {
   GitPullRequest,
   CircleDot,
   CircleCheck,
+  GitMerge,
 } from "lucide-react"
 
 import { GithubIcon } from "@/bigbistudio/components/icons"
@@ -27,7 +28,7 @@ export function UIGithubInsight() {
         <div className="grid grid-cols-1 mobile:grid-cols-2 lg:grid-cols-4 gap-2">
           <div className="flex flex-col gap-2 px-2.5 py-1.5 rounded-lg bg-surface-tertiary border border-line-translucent">
             <div className="flex items-center gap-1.5">
-              <GitPullRequest
+              <GitMerge
                 size={12}
                 strokeWidth={1}
                 className="text-ink-secondary"
