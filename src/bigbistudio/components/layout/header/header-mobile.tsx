@@ -27,7 +27,7 @@ export function HeaderMobile({
   const Icon = open ? X : Menu
 
   return (
-    <div className="relative lg:hidden flex items-center">
+    <div className="lg:hidden flex items-center">
       <Button
         size="icon"
         variant="ghost"
@@ -38,7 +38,7 @@ export function HeaderMobile({
       </Button>
       <div
         className={cn(
-          "absolute -right-2 top-full w-screen h-screen transition-all duration-300",
+          "absolute left-0 top-full w-screen h-screen transition-all duration-300",
           open
             ? "pointer-events-auto translate-y-0 opacity-100"
             : "pointer-events-none -translate-y-2 opacity-0",
