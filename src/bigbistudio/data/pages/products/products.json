@@ -18,7 +18,8 @@
         "featuresCarousel": {
             "eyebrow": "Highlights",
             "title": "Built for modern \nproduct teams.",
-            "subtitle": "Thoughtful systems and flexible foundations that help teams build clearer products, consistent experiences, and move from idea to production."
+            "subtitle": "Thoughtful systems and flexible foundations that help teams build clearer products, consistent experiences, and move from idea to production.",
+            "buttons": []
         },
         "openSource": {
             "id": "open-source",
