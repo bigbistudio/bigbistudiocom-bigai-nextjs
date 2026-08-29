@@ -8,7 +8,8 @@
         {
             "_type": "heading",
             "level": 2,
-            "text": "Introduction"
+            "text": "Introduction",
+            "marginTop": 0
         },
         {
             "_type": "paragraph",
