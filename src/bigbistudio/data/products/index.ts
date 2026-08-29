@@ -5,3 +5,8 @@ export {
     _bigaiWorkflowFramer,
     _bigaiWorkflowNextjs,
 }
+
+export const products = {
+    _bigaiWorkflowFramer,
+    _bigaiWorkflowNextjs,
+}
