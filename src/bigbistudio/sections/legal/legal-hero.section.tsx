@@ -19,7 +19,7 @@ export function LegalHeroSection({ page }: LegalHeroSectionProps) {
       <p className="flex flex-col text-ink-tertiary text-body-large max-w-135">
         {page.description}
       </p>
-      <div className="flex flex-col md:flex-row justify-center items-center gap-2 text-small text-ink-quaternary border-t border-line-translucent py-4 my-2 w-full">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-2 text-small text-ink-quaternary border-t border-line-translucent pt-4 mt-2">
         <div className="flex items-center gap-1">
           <FlagTriangleRight size={14} strokeWidth={1.5} />
           <span>{siteData.labels.effectiveDate} {formatDate(page.effectiveDate)}</span>

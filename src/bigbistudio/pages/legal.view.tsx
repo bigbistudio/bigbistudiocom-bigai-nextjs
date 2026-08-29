@@ -10,9 +10,11 @@ type LegalPageViewProps = {
 
 export function LegalPageView({ page }: LegalPageViewProps) {
   return (
-    <main className="relative z-10 flex flex-col items-center justify-center mx-auto w-full lg:max-w-210">
-      <LegalHeroSection page={page} />
-      <LegalContentSection page={page} />
+    <main className="relative z-10 flex flex-col items-center justify-center w-full">
+       <div className="container px-0 flex flex-col justify-center border border-line-translucent divide-y divide-line-translucent">
+        <LegalHeroSection page={page} />
+        <LegalContentSection page={page} />
+      </div>
     </main>
   )
 }

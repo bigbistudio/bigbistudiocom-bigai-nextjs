@@ -10,8 +10,10 @@ type LegalContentSectionProps = {
 
 export function LegalContentSection({ page }: LegalContentSectionProps) {
   return (
-    <section className="container prose prose-invert pb-20 mx-auto">
-      <PortableText blocks={page.content} />
+    <section className="container prose prose-invert py-20 mx-auto [&_strong]:text-brand-surface">
+      <div className="mx-auto lg:max-w-210">
+        <PortableText blocks={page.content} />
+      </div>
     </section>
   )
 }
