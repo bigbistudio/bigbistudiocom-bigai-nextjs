@@ -1,79 +1,71 @@
 {
     "slug": "cookie-policy",
     "title": "Cookie Policy",
-    "description": "This Cookie Policy explains how we use cookies and similar technologies to recognize you when you visit our website.",
-    "effectiveDate": "2026-08-06T15:15:00Z",
-    "lastUpdated": "2026-10-28T15:15:00Z",
+    "description": "This Cookie Policy explains how bigbi studio uses cookies and similar technologies across our website and services.",
+    "effectiveDate": "2026-08-26T15:15:00Z",
+    "lastUpdated": "2026-08-29T15:15:00Z",
     "content": [
         {
             "_type": "heading",
             "level": 2,
-            "text": "1. Introduction"
+            "text": "Introduction"
         },
         {
             "_type": "paragraph",
-            "text": "This Cookie Policy explains what cookies are and how [Product / Template Name] uses them on our website and services."
+            "text": "This Cookie Policy explains what cookies are and how **bigbi studio** uses them across our website and services."
         },
         {
             "_type": "heading",
             "level": 2,
-            "text": "2. What Are Cookies?"
+            "text": "What Are Cookies?"
         },
         {
             "_type": "paragraph",
-            "text": "Cookies are small data files stored on your device by your web browser when you visit a website. They are widely used to make websites work efficiently, as well as to provide reporting information."
+            "text": "Cookies are small data files stored on your device by your browser when you visit a website. They help websites function properly and provide information about website usage."
         },
         {
             "_type": "heading",
             "level": 2,
-            "text": "3. How We Use Cookies"
+            "text": "How We Use Cookies"
         },
         {
             "_type": "paragraph",
-            "text": "We use cookies for the following purposes:"
+            "text": "We may use cookies and similar technologies for the following purposes:"
         },
         {
             "_type": "list",
             "style": "bullet",
             "items": [
-                "Essential cookies: Required for the technical operation and security of our website.",
-                "Analytics cookies: To help us understand how visitors interact with our website and improve user experience."
+                "Essential cookies: Required for the operation, security, and functionality of our website.",
+                "Analytics cookies: Help us understand website usage and improve the user experience."
             ]
         },
         {
             "_type": "heading",
             "level": 2,
-            "text": "4. Managing Cookies"
+            "text": "Managing Cookies"
         },
         {
             "_type": "paragraph",
-            "text": "You can control and manage cookies through your browser settings. Please note that removing or blocking cookies may impact your experience and functionality of the website."
+            "text": "You can control or disable cookies through your browser settings. Blocking or removing certain cookies may affect website functionality, preferences, and your overall browsing experience."
         },
         {
             "_type": "heading",
             "level": 2,
-            "text": "5. Changes to This Policy"
+            "text": "Changes to This Policy"
         },
         {
             "_type": "paragraph",
-            "text": "We may update this Cookie Policy from time to time. Any changes will be posted directly on this page."
+            "text": "We may update this Cookie Policy from time to time to reflect changes in our practices, technologies, or legal requirements. Any updates will be posted on this page with a revised effective date."
         },
         {
             "_type": "heading",
             "level": 2,
-            "text": "6. Contact"
+            "text": "Contact"
         },
         {
             "_type": "paragraph",
-            "text": "If you have any questions about our use of cookies, please contact us at: [Your contact email]"
-        },
-        {
-            "_type": "spacer",
-            "size": 10
-        },
-        {
-            "_type": "paragraph",
-            "text": "Note: This document is provided as a general template and does not constitute legal advice."
+            "text": "If you have questions about our use of cookies, please contact **bigbi studio** through our Contact page."
         }
     ]
 }
