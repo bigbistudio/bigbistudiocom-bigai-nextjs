@@ -24,7 +24,8 @@
             "id": "what-we-build",
             "eyebrow": "Capabilities",
             "title": "What We Build.",
-            "subtitle": "From interfaces to infrastructure, we create experiences and systems built for what comes next."
+            "subtitle": "From interfaces to infrastructure, we create experiences and systems built for what comes next.",
+            "buttons": []
         },
         "processGrid": {
             "id": "how-we-build",
@@ -65,27 +66,9 @@
             ]
         },
         "faqGeneral": {
+            "isSticky": false,
             "eyebrow": "FAQs",
             "title": "Questions \nand answers."
-        },
-        "blog": {
-            "id": "blog-section",
-            "eyebrow": "Blog",
-            "title": "Insights",
-            "subtitle": "Thoughts on automation, workflows, and how modern teams build and operate at scale.",
-            "blogSlugs": [
-                "building-systems-that-scale-with-you",
-                "speed-comes-from-systems-not-mindset",
-                "the-hidden-cost-of-manual-workflows"
-            ],
-            "buttons": [
-                {
-                    "btnType": "ghost",
-                    "btnTitle": "Read More",
-                    "btnUrl": "/blog",
-                    "btnIcon": "ArrowRight"
-                }
-            ]
         }
     }
 }

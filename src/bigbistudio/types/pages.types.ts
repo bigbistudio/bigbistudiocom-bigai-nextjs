@@ -234,15 +234,15 @@ export type HomePageConfig = {
     heroMain: HeroMainSection
     clientLogos: ClientLogosSection
     featuresCarousel: FeaturesCarouselSection
-    statistics: BenefitsSection
+    // statistics: BenefitsSection
     processGrid: ProcessSection
     openSource: OpenSourceSection
-    pricing: PricingSection
+    // pricing: PricingSection
     products: ProductsSection
-    caseStudies: CaseStudiesSection
-    testimonials: TestimonialsSection
+    // caseStudies: CaseStudiesSection
+    // testimonials: TestimonialsSection
     faqGeneral: FAQSection
-    blog: BlogSection
+    // blog: BlogSection
   }
 }
 
