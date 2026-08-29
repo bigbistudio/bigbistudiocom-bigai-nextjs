@@ -31,16 +31,24 @@
     "title": "Coming Soon",
     "description": "We're working on something exciting."
   },
-  "features": {
-    "title": "Features",
-    "description": "Explore the features included in the template, from reusable UI components and SEO optimization to responsive layouts and developer-friendly architecture."
-  },
-  "caseStudies": {
-    "title": "Case Studies",
-    "description": "Discover real-world examples and showcase projects built with the AI Workflow & Automation Website Template."
-  },
   "notFound": {
     "title": "404 - Page Not Found",
     "description": "The page you're looking for couldn't be found. Return to the homepage or explore other sections of our website."
+  },
+  "features": {
+    "title": "bigbistudio.com — Design, Engineering & Digital Products",
+    "description": "We design and build digital products, websites, commerce experiences, and scalable UI systems."
+  },
+  "caseStudies": {
+    "title": "bigbistudio.com — Design, Engineering & Digital Products",
+    "description": "We design and build digital products, websites, commerce experiences, and scalable UI systems."
+  },
+  "blog": {
+    "title": "bigbistudio.com — Design, Engineering & Digital Products",
+    "description": "We design and build digital products, websites, commerce experiences, and scalable UI systems."
+  },
+  "pricing": {
+    "title": "bigbistudio.com — Design, Engineering & Digital Products",
+    "description": "We design and build digital products, websites, commerce experiences, and scalable UI systems."
   }
 }
