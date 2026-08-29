@@ -1,18 +1,18 @@
 {
     "slug": "terms-of-service",
     "title": "Terms of Service",
-    "description": "These Terms of Service govern your access to and use of our website, templates, and related services.",
-    "effectiveDate": "2026-08-06T15:15:00Z",
-    "lastUpdated": "2026-09-16T15:15:00Z",
+    "description": "These Terms govern your use of bigbi studio's website, digital products, services, and related resources provided online.",
+    "effectiveDate": "2026-08-26T15:15:00Z",
+    "lastUpdated": "2026-08-29T15:15:00Z",
     "content": [
         {
             "_type": "heading",
             "level": 2,
-            "text": "1. Introduction"
+            "text": "Introduction"
         },
         {
             "_type": "paragraph",
-            "text": "Welcome to [Product / Template Name] (\"we\", \"our\", \"us\"). By accessing or using this website, template, or any related services (collectively, the \"Service\"), you agree to be bound by these Terms of Service (\"Terms\")."
+            "text": "Welcome to **bigbi studio** (\"we\", \"our\", \"us\"). We are a design and engineering studio creating digital products, websites, commerce experiences, UI systems, templates, and related resources. By accessing or using our website, products, or services (collectively, the \"Service\"), you agree to these Terms of Service (\"Terms\")."
         },
         {
             "_type": "paragraph",
@@ -21,34 +21,53 @@
         {
             "_type": "heading",
             "level": 2,
-            "text": "2. Description of the Service"
+            "text": "Our Services"
         },
         {
             "_type": "paragraph",
-            "text": "[Product / Template Name] provides digital website templates and related resources built with Framer. The Service may be offered for free or as a paid product depending on the version."
+            "text": "**bigbi studio** provides design and development services, digital products, website templates, UI resources, and other digital solutions. Specific services, deliverables, timelines, and fees may vary depending on the project or product."
         },
         {
             "_type": "heading",
             "level": 2,
-            "text": "3. License"
+            "text": "Digital Products & Templates"
         },
         {
             "_type": "paragraph",
-            "text": "When you access or remix the template:"
+            "text": "Digital products and templates are provided under the license terms specified for the applicable product. Unless explicitly stated otherwise:"
         },
         {
             "_type": "list",
             "style": "bullet",
             "items": [
-                "You are granted a non-exclusive, non-transferable license to use the template for personal or commercial projects.",
-                "You may modify the template to suit your needs.",
-                "You may not resell, sublicense, or redistribute the template as a standalone product or competing template."
+                "You may use purchased or freely provided products for personal or commercial projects.",
+                "You may modify the products to suit your needs.",
+                "You may not resell, sublicense, redistribute, or publish the products as standalone products or competing templates.",
+                "You are responsible for ensuring that your use of the products complies with applicable laws and third-party licenses."
             ]
         },
         {
             "_type": "heading",
             "level": 2,
-            "text": "4. User Responsibilities"
+            "text": "Client Projects"
+        },
+        {
+            "_type": "paragraph",
+            "text": "For studio projects, the scope, deliverables, fees, timeline, ownership, and other project-specific terms will be agreed upon with the client before work begins. Any proposal, statement of work, or written agreement may contain terms that apply specifically to that project."
+        },
+        {
+            "_type": "heading",
+            "level": 2,
+            "text": "Intellectual Property"
+        },
+        {
+            "_type": "paragraph",
+            "text": "Unless otherwise agreed in writing, **bigbi studio** retains ownership of its pre-existing tools, frameworks, design systems, templates, components, processes, and other reusable materials. Client-specific deliverables and intellectual property rights are governed by the applicable project agreement."
+        },
+        {
+            "_type": "heading",
+            "level": 2,
+            "text": "User Responsibilities"
         },
         {
             "_type": "paragraph",
@@ -58,63 +77,56 @@
             "_type": "list",
             "style": "bullet",
             "items": [
-                "Use the Service for any unlawful purpose",
-                "Infringe upon intellectual property rights",
-                "Attempt to exploit, copy, or redistribute the template in a way that violates these Terms"
+                "Use the Service for any unlawful or unauthorized purpose.",
+                "Infringe upon the intellectual property or other rights of third parties.",
+                "Copy, exploit, resell, or redistribute our products or resources in violation of their applicable license.",
+                "Attempt to interfere with or compromise the security or operation of the Service."
             ]
         },
         {
             "_type": "heading",
             "level": 2,
-            "text": "5. Payments & Refunds (if applicable)"
+            "text": "Payments & Refunds"
         },
         {
             "_type": "paragraph",
-            "text": "Paid versions of the template are provided as digital goods. All sales are final unless otherwise stated. Refunds are handled according to the platform’s (e.g. Framer, Stripe) policies."
+            "text": "Fees for studio services are agreed upon on a project-by-project basis. Digital products are subject to the payment and refund terms presented at the time of purchase and, where applicable, the policies of the payment or distribution platform."
         },
         {
             "_type": "heading",
             "level": 2,
-            "text": "6. Disclaimer"
+            "text": "Disclaimer"
         },
         {
             "_type": "paragraph",
-            "text": "The Service is provided \"as is\" and \"as available\" without warranties of any kind. We do not guarantee that the Service will be error-free or uninterrupted."
+            "text": "The Service is provided on an \"as is\" and \"as available\" basis. To the extent permitted by law, we make no warranties that the Service will be uninterrupted, error-free, secure, or suitable for every particular purpose."
         },
         {
             "_type": "heading",
             "level": 2,
-            "text": "7. Limitation of Liability"
+            "text": "Limitation of Liability"
         },
         {
             "_type": "paragraph",
-            "text": "To the maximum extent permitted by law, we shall not be liable for any indirect, incidental, or consequential damages arising from your use of the Service."
+            "text": "To the maximum extent permitted by law, **bigbi studio** will not be liable for any indirect, incidental, special, consequential, or loss-of-profit damages arising from or related to your use of the Service."
         },
         {
             "_type": "heading",
             "level": 2,
-            "text": "8. Changes to These Terms"
+            "text": "Changes to These Terms"
         },
         {
             "_type": "paragraph",
-            "text": "We reserve the right to update these Terms at any time. Changes will be effective upon posting on this page."
+            "text": "We may update these Terms from time to time. Changes become effective when the updated Terms are published on this website."
         },
         {
             "_type": "heading",
             "level": 2,
-            "text": "9. Contact"
+            "text": "Contact"
         },
         {
             "_type": "paragraph",
-            "text": "If you have any questions about these Terms, please contact us at: [Your contact email]"
-        },
-        {
-            "_type": "spacer",
-            "size": 10
-        },
-        {
-            "_type": "paragraph",
-            "text": "Note: This document is provided as a general template and does not constitute legal advice."
+            "text": "If you have questions about these Terms, please contact **bigbi studio** through the contact information provided on our website."
         }
     ]
 }
