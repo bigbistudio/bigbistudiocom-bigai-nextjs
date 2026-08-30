@@ -27,9 +27,9 @@ export function FeatureCarouselCard({
     <div className="p-1">
       <Card
         onClick={() => onOpen(card)}
-        className="group cursor-pointer rounded-4xl bg-surface-tertiary py-0 shadow-none ring-0 hover:bg-linear-to-t hover:from-surface-tertiary hover:to-surface-quaternary transition-colors duration-300 ease-in-out"
+        className="group cursor-pointer rounded-4xl bg-surface-tertiary py-0 shadow-none ring-0 hover:bg-linear-to-t hover:from-surface-tertiary hover:to-surface-quaternary transition-colors duration-300 ease-in-out w-full"
       >
-        <CardContent className="relative flex aspect-square flex-col justify-between px-0">
+        <CardContent className="relative flex aspect-square flex-col justify-between px-0 w-full">
           {card.image && (
             <Image
               src={card.image}
