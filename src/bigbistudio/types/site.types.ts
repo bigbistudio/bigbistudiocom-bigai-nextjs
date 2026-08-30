@@ -2,7 +2,6 @@ export type Site = {
   metadata: {
     site: {
       name: string
-      url: string
       locale: string
       author: string
       creator: string

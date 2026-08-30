@@ -13,13 +13,15 @@ type CreateMetadataOptions = {
     keywords?: string[]
 }
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL!
+
 export function createMetadata({
     title,
     description,
     keywords
 }: CreateMetadataOptions): Metadata {
     return {
-        metadataBase: new URL(siteData.metadata.site.url),
+        metadataBase: new URL(siteUrl),
 
         title,
         description,
@@ -29,11 +31,11 @@ export function createMetadata({
         openGraph: {
             title,
             description,
-            url: siteData.metadata.site.url,
+            url: siteUrl,
             siteName: siteData.metadata.site.name,
             locale: siteData.metadata.site.locale,
             images: [
-                `${siteData.metadata.site.url}${siteData.metadata.images.openGraph}`,
+                `${siteUrl}${siteData.metadata.images.openGraph}`,
             ],
             type: "website"
         },
@@ -44,7 +46,7 @@ export function createMetadata({
             title,
             description,
             images: [
-                `${siteData.metadata.site.url}${siteData.metadata.images.openGraph}`,
+                `${siteUrl}${siteData.metadata.images.openGraph}`,
             ],
         },
     }
