@@ -25,7 +25,7 @@
             },
             {
                 "_type": "paragraph",
-                "text": "I've been building for the web for more than eight years, working with businesses across Europe and Australia, with much of my experience focused on the German market. My background spans Magento, WordPress, Shopify, Linux, cloud infrastructure, UI/UX, and frontend engineering, giving me a deep understanding of the web from its fundamentals to modern digital experiences."
+                "text": "I've been building for the web for more than eight years, working with businesses across Europe and Australia, with much of my experience focused on the German market. My background spans Adobe Commerce Magento, Hyvä Theme, WordPress, Shopify, Linux, cloud infrastructure, UI/UX, and frontend engineering, giving me a deep understanding of the web from its fundamentals to modern digital experiences."
             },
             {
                 "_type": "paragraph",
@@ -65,22 +65,22 @@
                     {
                         "style": "medium",
                         "aboveText": "Sustainability",
-                        "belowText": "Build for maintenance, evolution, and long-term everyday use."
+                        "belowText": "Build for maintenance, evolution, and long-term product use today."
                     },
                     {
                         "style": "medium",
                         "aboveText": "Craft",
-                        "belowText": "Sweat the details and refine every part with intention."
+                        "belowText": "Sweat the details and refine every single part with intention."
                     },
                     {
                         "style": "medium",
                         "aboveText": "Simplicity",
-                        "belowText": "Remove complexity and make products easy to navigate."
+                        "belowText": "Remove complexity and make every product easy to navigate clearly."
                     },
                     {
                         "style": "medium",
                         "aboveText": "Performance",
-                        "belowText": "Make speed and efficiency part of the foundation."
+                        "belowText": "Make speed and efficiency part of every product's foundation."
                     },
                     {
                         "style": "medium",
@@ -90,12 +90,12 @@
                     {
                         "style": "medium",
                         "aboveText": "Transparency",
-                        "belowText": "Keep communication, decisions, and processes clear."
+                        "belowText": "Keep communication, decisions, processes clear and intentional."
                     },
                     {
                         "style": "medium",
                         "aboveText": "Community",
-                        "belowText": "Share knowledge, tools, templates, and open-source work."
+                        "belowText": "Share knowledge, tools, templates, and open-source work together."
                     }
                 ],
                 "marginTop": 32
