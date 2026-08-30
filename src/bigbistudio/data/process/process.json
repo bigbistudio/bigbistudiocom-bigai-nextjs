@@ -12,21 +12,21 @@
             "phase": "02. DESIGN",
             "vector": "/vectors/process-design-vector.svg",
             "title": "Shape the Right Experience.",
-            "description": "Transform ideas into thoughtful interfaces, intuitive interactions, and visual systems tailored to your product goals."
+            "description": "Transform ideas into thoughtful interfaces, intuitive interactions, and visual systems aligned with your goals."
         },
         {
             "id": "phase03",
             "phase": "03. BUILD",
             "vector": "/vectors/process-build-vector.svg",
             "title": "Build for Scale and Growth.",
-            "description": "Turn designs into scalable digital products with modern technologies, reusable systems, and foundations built for growth."
+            "description": "Turn designs into scalable digital products using modern technologies and reusable design systems."
         },
         {
             "id": "phase04",
             "phase": "04. REFINE",
             "vector": "/vectors/process-refine-vector.svg",
             "title": "Polish Every Detail Carefully.",
-            "description": "Test, optimize, and refine every interaction to create a fast, clear, polished, and intentional final experience."
+            "description": "Test, optimize, and refine every interaction to create a fast, clear, polished final experience."
         }
     ]
 }

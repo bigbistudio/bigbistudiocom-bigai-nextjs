@@ -24,7 +24,7 @@
             "id": "products",
             "eyebrow": "Products",
             "title": "One system. \nTwo implementations.",
-            "subtitle": "A modular foundation for AI products, automation platforms, and modern SaaS teams.",
+            "subtitle": "A modular foundation for AI products, automation platforms, and modern SaaS.",
             "productSlugs": [
                 "bigai-workflow-framer-template",
                 "bigai-workflow-nextjs-template"
@@ -42,14 +42,14 @@
             "id": "what-we-build",
             "eyebrow": "Capabilities",
             "title": "What We Build.",
-            "subtitle": "We bring design, technology, and systems together to create products built for growth.",
+            "subtitle": "We bring design, technology, and systems together to create products for growth.",
             "buttons": []
         },
         "processGrid": {
             "id": "how-we-build",
             "eyebrow": "Process",
             "title": "How We Build.",
-            "subtitle": "We connect design, systems, and development instead of treating them as separate steps."
+            "subtitle": "We connect design, systems, and development into one cohesive process."
         },
         "openSource": {
             "id": "open-source",
