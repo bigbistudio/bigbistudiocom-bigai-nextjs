@@ -6,6 +6,9 @@ import type { ContactFormValues } from "./contact-form.types"
 
 const resend = new Resend(process.env.RESEND_API_KEY)
 
+const fromEmail = process.env.CONTACT_FROM_EMAIL!
+const toEmail = process.env.CONTACT_TO_EMAIL!
+
 /**
  * Send contact email.
  */
@@ -15,8 +18,8 @@ export async function sendContactEmail(
     // console.log("Contact form submitted:", values);
 
     const { data, error } = await resend.emails.send({
-        from: "BigA.i <onboarding@resend.dev>",
-        to: ["onboarding@resend.dev"],
+        from: fromEmail,
+        to: [toEmail],
         subject: `New contact from ${values.name}`,
         text: `
             Name: ${values.name}
