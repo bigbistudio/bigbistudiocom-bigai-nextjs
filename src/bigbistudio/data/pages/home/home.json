@@ -20,11 +20,29 @@
         "clientLogos": {
             "title": "Tools we trust."
         },
+        "products": {
+            "id": "products",
+            "eyebrow": "Products",
+            "title": "One system. \nTwo implementations.",
+            "subtitle": "A modular foundation for AI products, automation platforms, and modern SaaS teams.",
+            "productSlugs": [
+                "bigai-workflow-framer-template",
+                "bigai-workflow-nextjs-template"
+            ],
+            "buttons": [
+                {
+                    "btnType": "ghost",
+                    "btnTitle": "See More",
+                    "btnUrl": "/products",
+                    "btnIcon": "ArrowRight"
+                }
+            ]
+        },
         "featuresCarousel": {
             "id": "what-we-build",
             "eyebrow": "Capabilities",
             "title": "What We Build.",
-            "subtitle": "From interfaces to infrastructure, we create experiences and systems built for what comes next.",
+            "subtitle": "We bring design, technology, and systems together to create products built for growth.",
             "buttons": []
         },
         "processGrid": {
@@ -44,24 +62,6 @@
                     "btnUrl": "https://github.com/bigbistudio/bigai-workflow-nextjs",
                     "targetBlank": true,
                     "btnIcon": "ArrowUpRight"
-                }
-            ]
-        },
-        "products": {
-            "id": "products",
-            "eyebrow": "Products",
-            "title": "One system. \nTwo implementations.",
-            "subtitle": "Our first website system, designed for AI products, automation platforms, and modern SaaS.",
-            "productSlugs": [
-                "bigai-workflow-framer-template",
-                "bigai-workflow-nextjs-template"
-            ],
-            "buttons": [
-                {
-                    "btnType": "ghost",
-                    "btnTitle": "See More",
-                    "btnUrl": "/products",
-                    "btnIcon": "ArrowRight"
                 }
             ]
         },
