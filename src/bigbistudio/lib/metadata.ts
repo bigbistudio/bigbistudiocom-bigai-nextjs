@@ -32,7 +32,9 @@ export function createMetadata({
             url: siteData.metadata.site.url,
             siteName: siteData.metadata.site.name,
             locale: siteData.metadata.site.locale,
-            images: [siteData.metadata.images.openGraph],
+            images: [
+                `${siteData.metadata.site.url}${siteData.metadata.images.openGraph}`,
+            ],
             type: "website"
         },
 
@@ -41,7 +43,9 @@ export function createMetadata({
             creator: siteData.metadata.social.x,
             title,
             description,
-            images: [siteData.metadata.images.openGraph]
+            images: [
+                `${siteData.metadata.site.url}${siteData.metadata.images.openGraph}`,
+            ],
         },
     }
 }
