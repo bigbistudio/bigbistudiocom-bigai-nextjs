@@ -31,13 +31,13 @@ export function OpenSourceSection({
 
       <div className="flex flex-col-reverse lg:flex-row lg:justify-between gap-8 bg-surface-secondary border border-line-primary p-6 rounded-2xl min-h-100">
         <div className="flex items-center lg:px-8 xl:px-16">
-          <ul className="relative flex flex-col gap-6">
+          <div className="relative flex flex-col gap-6">
             {/* Timeline */}
             <div className="pointer-events-none absolute left-4 top-4 bottom-4 w-px -translate-x-1/2 overflow-hidden bg-line-tertiary">
               <div className="absolute inset-x-0 -top-full h-full animate-timeline bg-linear-to-b from-transparent via-brand-surface/60 to-transparent" />
             </div>
 
-            <li className="relative flex items-center gap-4">
+            <div className="relative flex items-center gap-4">
               <div className="relative z-10 flex size-8 shrink-0 items-center justify-center rounded-full border border-line-tertiary bg-surface-tertiary">
                 <Wrench
                   size={16}
@@ -52,9 +52,9 @@ export function OpenSourceSection({
                   Create · experiment · extend.
                 </p>
               </div>
-            </li>
+            </div>
 
-            <li className="relative flex items-center gap-4">
+            <div className="relative flex items-center gap-4">
               <div className="relative z-10 flex size-8 shrink-0 items-center justify-center rounded-full border border-line-tertiary bg-surface-tertiary">
                 <Share2
                   size={16}
@@ -69,11 +69,11 @@ export function OpenSourceSection({
                   Share ideas · work · experiments.
                 </p>
               </div>
-            </li>
+            </div>
 
-            <li className="relative flex items-center gap-4">
+            <div className="relative flex items-center gap-4">
               <div className="relative z-10 flex size-8 shrink-0 items-center justify-center rounded-full border border-line-tertiary bg-surface-tertiary">
-                <Lightbulb
+                <divghtbulb
                   size={16}
                   strokeWidth={1.5}
                   className="text-ink-tertiary"
@@ -86,9 +86,9 @@ export function OpenSourceSection({
                   Discover · explore · adapt.
                 </p>
               </div>
-            </li>
+            </div>
 
-            <li className="relative flex items-center gap-4">
+            <div className="relative flex items-center gap-4">
               <div className="relative z-10 flex size-8 shrink-0 items-center justify-center rounded-full border border-line-tertiary bg-surface-tertiary">
                 <GitPullRequest
                   size={16}
@@ -103,9 +103,9 @@ export function OpenSourceSection({
                   Improve · refine · share.
                 </p>
               </div>
-            </li>
+            </div>
 
-            <li className="relative flex items-center gap-4">
+            <div className="relative flex items-center gap-4">
               <div className="relative z-10 flex size-8 shrink-0 items-center justify-center rounded-full border border-line-tertiary bg-surface-tertiary">
                 <Users
                   size={16}
@@ -120,8 +120,8 @@ export function OpenSourceSection({
                   Meet · engage · collaborate.
                 </p>
               </div>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
 
         <UIGithubInsight />
