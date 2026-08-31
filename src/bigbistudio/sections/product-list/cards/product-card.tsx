@@ -38,7 +38,7 @@ export function ProductCard({ product }: ProductCardProps) {
         />
       )}
       <div className="w-12 h-12 rounded-md bg-surface-tertiary">
-        <Image src={meta.logo} width={48} height={48} alt={meta.title} />
+        <Image src={meta.logo} width={48} height={48} alt="Tech Logo" />
       </div>
       <div className="flex flex-col gap-4 xl:max-w-[80%]">
         <h3 className="text-extra-large font-normal">{meta.title}</h3>
