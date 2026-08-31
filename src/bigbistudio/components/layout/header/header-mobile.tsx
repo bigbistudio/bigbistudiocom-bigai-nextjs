@@ -33,6 +33,7 @@ export function HeaderMobile({
         variant="ghost"
         className="text-ink-primary hover:bg-white/5"
         onClick={onToggle}
+        aria-label="Menu"
       >
         <Icon className="size-xs" />
       </Button>
