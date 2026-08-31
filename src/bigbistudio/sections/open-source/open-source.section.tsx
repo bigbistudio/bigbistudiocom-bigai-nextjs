@@ -73,7 +73,7 @@ export function OpenSourceSection({
 
             <div className="relative flex items-center gap-4">
               <div className="relative z-10 flex size-8 shrink-0 items-center justify-center rounded-full border border-line-tertiary bg-surface-tertiary">
-                <divghtbulb
+                <Lightbulb
                   size={16}
                   strokeWidth={1.5}
                   className="text-ink-tertiary"
