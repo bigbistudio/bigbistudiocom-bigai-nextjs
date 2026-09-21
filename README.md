@@ -1,8 +1,36 @@
-# www.bigbistudio.com
+# [www.bigbistudio.com](http://www.bigbistudio.com)
 
-The official website for **bigbi studio** — a digital studio focused on building thoughtful digital products, modern web experiences, and open-source tools.
+The official website for [bigbi studio](https://www.bigbistudio.com) — a digital studio focused on thoughtful digital products, modern web experiences, and open-source tools.
 
-Built with [Next.js](https://nextjs.org/), TypeScript, and Tailwind CSS.
+Built with **Next.js, React, TypeScript, and Tailwind CSS**.
+
+## About This Repository
+
+This repository is a **real-world use case of the [bigA.i Workflow Next.js Template](https://github.com/bigbistudio/bigai-workflow-nextjs)**.
+
+The repository is public to demonstrate how the template can be used as a foundation for a real website, then adapted, customized, and extended for a specific brand and project.
+
+Rather than being another standalone template, this repository shows the template in practice:
+
+* Custom design and branding
+* Real website content and page structure
+* Reusable components and sections
+* Design system customization
+* Project-specific functionality
+* SEO and metadata
+* Production-oriented implementation
+
+### From Template to Website
+
+**[bigA.i Workflow Next.js Template](https://github.com/bigbistudio/bigai-workflow-nextjs)**
+Foundation, architecture, and reusable patterns.
+
+↓
+
+**[www.bigbistudio.com](http://www.bigbistudio.com)**
+A real-world implementation built from that foundation.
+
+The two repositories are intentionally separate. The template provides a reusable starting point, while this repository contains the custom implementation and decisions specific to the bigbi studio website.
 
 ## Tech Stack
 
@@ -21,8 +49,8 @@ Built with [Next.js](https://nextjs.org/), TypeScript, and Tailwind CSS.
 
 ### Installation
 
-```
-git clone https://github.com/ethan-nd/bigbistudiocom-bigai-nextjs
+```bash
+git clone https://github.com/bigbistudio/bigbistudiocom-bigai-nextjs.git
 cd bigbistudiocom-bigai-nextjs
 npm install
 ```
@@ -58,14 +86,23 @@ src/
 
 Content is kept separate from UI where possible to make the website easier to maintain and extend.
 
+The project structure follows the foundation of the bigA.i Workflow Next.js Template while allowing the website to introduce its own components, sections, content, and design decisions.
+
 ## Based On
 
-This website is built from the open-source **bigA.i Workflow Next.js Template**, adapted and extended for the bigbi studio website.
+This website is built from the open-source **bigA.i Workflow Next.js Template** and adapted for the bigbi studio website.
 
-The template is available on GitHub:
+**Template:**
+https://github.com/bigbistudio/bigai-workflow-nextjs
 
-https://github.com/bigbi-studio/bigai-workflow-nextjs
+The template is the reusable product. This repository is the **real-world use case** demonstrating how that product can be applied to build an actual website.
+
+## Contributing
+
+This repository primarily contains the implementation of the bigbi studio website.
+
+If you would like to contribute, please read [CONTRIBUTING.md](./CONTRIBUTING.md) first.
 
 ## License
 
-This project is maintained by **bigbi studio**.
+This project is maintained by bigbi studio.
